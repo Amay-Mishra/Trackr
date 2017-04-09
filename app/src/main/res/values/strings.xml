@@ -1,7 +1,14 @@
 <resources>
     <string name="app_name">Trackr</string>
+
     <string name="uname">Username</string>
     <string name="psw">Password</string>
     <string name="login">Login</string>
     <string name="regLink">New User? Create Account.</string>
+
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="reg">Create Account</string>
+    <string name="loginLink">Already a member? Login.</string>
 </resources>
