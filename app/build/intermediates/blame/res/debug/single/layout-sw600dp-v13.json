@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/root/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/root/.android/build-cache/762f04ce5a92eb895686df2fcf3b78dd1890a588/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
         "source": "/root/.android/build-cache/722eccedc5a6b2cc43c816d70d8de14e45e9d87b/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     }

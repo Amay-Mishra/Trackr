@@ -7,8 +7,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/loginBg"
     android:padding="10dp"
+    android:background="@color/loginBg"
     tools:context="com.example.root.trackr.MainActivity">
 
     <LinearLayout
@@ -60,17 +60,18 @@
             android:textColorLink="@color/loginBut" />
 
 
-    <Button
-        android:id="@+id/buttonRegLink"
-        android:layout_marginTop="30dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/regLink"
-        android:fontFamily="sans-serif"
-        android:text="@string/regLink"
-        android:textAllCaps="false"
-        android:textColor="@color/regLinkText"
-        android:textSize="16sp" />
+        <Button
+            android:id="@+id/buttonRegLink"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/regLink"
+            android:fontFamily="sans-serif"
+            android:text="@string/regLink"
+            android:textAllCaps="false"
+            android:textColor="@color/regLinkText"
+            android:textSize="16sp" />
+
 
     </LinearLayout>
 </LinearLayout>
