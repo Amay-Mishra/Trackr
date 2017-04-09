@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="loginBg">#1e1d1f</color>
+    <color name="loginBut">#369e54</color>
+    <color name="regLink">#00369e54</color>
+    <color name="regLinkText">#dddddd</color>
+    <color name="inputTextBg">#dddddd</color>
 </resources>
