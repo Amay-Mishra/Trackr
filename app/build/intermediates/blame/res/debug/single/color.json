@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/root/.android/build-cache/722eccedc5a6b2cc43c816d70d8de14e45e9d87b/output/res/color/design_error.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/root/.android/build-cache/0cbaa70daf5142f777ae8bfc7527e78720872272/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/root/.android/build-cache/0cbaa70daf5142f777ae8bfc7527e78720872272/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/root/.android/build-cache/0cbaa70daf5142f777ae8bfc7527e78720872272/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/root/.android/build-cache/0cbaa70daf5142f777ae8bfc7527e78720872272/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/root/.android/build-cache/0cbaa70daf5142f777ae8bfc7527e78720872272/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/root/.android/build-cache/0cbaa70daf5142f777ae8bfc7527e78720872272/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/root/.android/build-cache/0cbaa70daf5142f777ae8bfc7527e78720872272/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/root/.android/build-cache/0cbaa70daf5142f777ae8bfc7527e78720872272/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/root/.android/build-cache/0cbaa70daf5142f777ae8bfc7527e78720872272/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/root/.android/build-cache/0cbaa70daf5142f777ae8bfc7527e78720872272/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/root/.android/build-cache/0cbaa70daf5142f777ae8bfc7527e78720872272/output/res/color/abc_primary_text_material_light.xml"
+    }
+]

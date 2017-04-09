@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]
