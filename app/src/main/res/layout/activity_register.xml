@@ -98,7 +98,7 @@
         </android.support.design.widget.TextInputLayout>
 
         <Button
-            android:id="@+id/buttonLogin"
+            android:id="@+id/buttonReg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
@@ -108,7 +108,7 @@
 
 
         <Button
-            android:id="@+id/buttonRegLink"
+            android:id="@+id/buttonLoginLink"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"

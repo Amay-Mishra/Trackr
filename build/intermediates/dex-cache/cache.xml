@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/e0f570550b4f948307ea722dc883a79c50d3864c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_41247a37a6bb40f1e4cc6d22c987a92aeb1573fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/0cbaa70daf5142f777ae8bfc7527e78720872272/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_efdd4f9bf9b19432783d49d148adf9ceeeb02cef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_76f81077aea9bd1699aabfb9818dc8fa3bde44df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/923ea2b4e8f225b34141a0f41ae3d7f531863c9d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8ae4df1abd107bb74aadb199ea135221199ac1f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/b5f078c3ac2096d10b929c340e915dd4c6a71cb8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ca3c7a96fd67e09ebe537b05186e164f6ff557a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/6c3d1577a152217fa5fb65a5b982f1d19421d9fc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8c9c345be9009b7f2d0536adb4f6b1ba3825f857/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/StudioProjects/Trackr/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a630766e98caef43166b5393be1036ef0296e4da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_71603e9186bae46f98999e0a31ed8167b724c574/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/b0625a8550d441ed409e57498b29f7d045c3ca6a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5f7baee7987dd5c4f43c0800e2ff151acdb8cb04/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/722eccedc5a6b2cc43c816d70d8de14e45e9d87b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a663a9d4dfab557ca3626582112fcecfbae897f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/ebd969680bf13c5bafdf277fc8f20df330f081bc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_36b3a226dbcb5c572183e367cd07e1969d0c9256/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/419a92ed837c440136b5172138c16d7f02b4ded0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6ead61f6ebcc26bb38bb55eb61b47c8b95b45bda/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/7e166041071803a888b05168b5732565a80f7ceb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1273035d1813c7d1476bb8049e3559c3d6a5fca5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/2f556955b888725c7bd626401951112584e1a797/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bd1e89ae150d5f57ef62f0d62844b2375e219334/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/f47f6de49dfa2e4eea48ddb79f7cf74f404a3ba6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_283ba9407a69cb5eb203c337ea9e06a9b7a35676/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/0ade5327e289388d3a979dd4fb3297140101dfe5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e8277b75cb763683db814559bc95b659288f2194/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/StudioProjects/Trackr/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a90f3603e8381d60b078b530804a9a356f546ea">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b19d856a412fe577738984caf821b1cd5c9ccbe8/classes.dex" />
+    </item>
+
+</items>
