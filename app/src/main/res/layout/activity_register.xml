@@ -1,125 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="10dp"
-    android:background="@color/loginBg"
+    android:fillViewport="true"
     tools:context="com.example.root.trackr.RegisterActivity">
 
     <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:layout_marginTop="150dp"
-        android:orientation="vertical">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/loginBg">
 
-        <android.support.design.widget.TextInputLayout
-            android:id="@+id/fnameWrapper"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:background="@color/inputTextBg">
+            android:layout_weight="0.5"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/editTextFname"
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/fnameWrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:hint="@string/fname"
-                android:inputType="textWebEditText" />
-        </android.support.design.widget.TextInputLayout>
+                android:layout_marginTop="4dp"
+                android:background="@color/inputTextBg">
 
-        <android.support.design.widget.TextInputLayout
-            android:id="@+id/lnameWrapper"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:background="@color/inputTextBg">
+                <EditText
+                    android:id="@+id/editTextFname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/fname"
+                    android:inputType="textWebEditText" />
+            </android.support.design.widget.TextInputLayout>
 
-            <EditText
-                android:id="@+id/editTextLname"
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/lnameWrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:hint="@string/lname"
-                android:inputType="textWebEditText" />
-        </android.support.design.widget.TextInputLayout>
+                android:layout_marginTop="4dp"
+                android:background="@color/inputTextBg">
 
-        <android.support.design.widget.TextInputLayout
-            android:id="@+id/emailWrapper"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:background="@color/inputTextBg">
+                <EditText
+                    android:id="@+id/editTextLname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/lname"
+                    android:inputType="textWebEditText" />
+            </android.support.design.widget.TextInputLayout>
 
-            <EditText
-                android:id="@+id/editTextEmail"
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/emailWrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:hint="@string/email"
-                android:inputType="textEmailAddress" />
-        </android.support.design.widget.TextInputLayout>
+                android:layout_marginTop="4dp"
+                android:background="@color/inputTextBg">
 
-        <android.support.design.widget.TextInputLayout
-            android:id="@+id/unameWrapper"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:background="@color/inputTextBg">
+                <EditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress" />
+            </android.support.design.widget.TextInputLayout>
 
-            <EditText
-                android:id="@+id/editTextUname"
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/unameWrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:hint="@string/uname"
-                android:inputType="textWebEditText" />
-        </android.support.design.widget.TextInputLayout>
+                android:layout_marginTop="4dp"
+                android:background="@color/inputTextBg">
 
-        <android.support.design.widget.TextInputLayout
-            android:id="@+id/pswWrapper"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:background="@color/inputTextBg">
+                <EditText
+                    android:id="@+id/editTextUname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/uname"
+                    android:inputType="textWebEditText" />
+            </android.support.design.widget.TextInputLayout>
 
-            <EditText
-                android:id="@+id/editTextPsw"
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/pswWrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@color/inputTextBg">
+
+                <EditText
+                    android:id="@+id/editTextPsw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/psw"
+                    android:inputType="textPassword" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/buttonReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@color/regBut"
+                android:text="@string/reg"
+                android:textColorLink="@color/loginBut" />
+
+            <Button
+                android:id="@+id/buttonLoginLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@color/loginLink"
+                android:text="@string/loginLink"
                 android:fontFamily="sans-serif"
-                android:hint="@string/psw"
-                android:inputType="textPassword" />
-        </android.support.design.widget.TextInputLayout>
-
-        <Button
-            android:id="@+id/buttonReg"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:background="@color/regBut"
-            android:text="@string/reg"
-            android:textColorLink="@color/loginBut" />
+                android:textAllCaps="false"
+                android:textColor="@color/loginLinkText"
+                android:textSize="16sp" />
 
 
-        <Button
-            android:id="@+id/buttonLoginLink"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:background="@string/loginLink"
-            android:fontFamily="sans-serif"
-            android:text="@string/regLink"
-            android:textAllCaps="false"
-            android:textColor="@color/regLinkText"
-            android:textSize="16sp" />
-
-
+        </LinearLayout>
     </LinearLayout>
+</ScrollView>
 
-</LinearLayout>
