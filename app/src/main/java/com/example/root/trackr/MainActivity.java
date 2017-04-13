@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     private static Button button_regLink;
+    private static Button button_login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void initialize() {
         button_regLink= (Button) findViewById(R.id.buttonRegLink);
+        button_login= (Button) findViewById(R.id.buttonLogin);
     }
 
     public void addListenerForButton() {
@@ -29,6 +31,16 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         Intent intent= new Intent("com.example.root.trackr.RegisterActivity");
+                        startActivity(intent);
+                    }
+                }
+        );
+
+        button_login.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent= new Intent("com.example.root.trackr.MainMenuActivity");
                         startActivity(intent);
                     }
                 }

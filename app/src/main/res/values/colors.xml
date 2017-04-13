@@ -16,4 +16,8 @@
     <color name="loginLink">#00369e54</color>
     <color name="loginLinkText">#dddddd</color>
 
+    <color name="listViewBg">#369e54</color>
+    <color name="navViewBg">#369e54</color>
+    <color name="navMenuText">#dddddd</color>
+
 </resources>
