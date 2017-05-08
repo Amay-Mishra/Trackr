@@ -8,6 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
+
         <activity android:name=".MainActivity"
             android:theme="@style/LoginRegTheme">
             <intent-filter>
@@ -16,7 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity"
+
+        <activity
+            android:name=".RegisterActivity"
             android:theme="@style/LoginRegTheme">
             <intent-filter>
                 <action android:name="com.example.root.trackr.RegisterActivity" />
@@ -25,7 +28,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainMenuActivity"
+        <activity
+            android:name=".MainMenuActivity"
             android:theme="@style/MainMenuTheme">
             <intent-filter>
                 <action android:name="com.example.root.trackr.MainMenuActivity" />
@@ -33,6 +37,17 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/LoginRegTheme">
+            <intent-filter>
+                <action android:name="com.example.root.trackr.LoginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
