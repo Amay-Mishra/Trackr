@@ -39,8 +39,8 @@ public class SessionManager {
         editor.putBoolean(KEY_IS_LOGGEDIN, isLoggedIn);
 
         // commit changes
-        editor.putString("fname", fname);
         editor.putString("lname", lname);
+        editor.putString("fname", fname);
         editor.putString("id", id);
         editor.putString("uname", uname);
         editor.putString("email", email);
