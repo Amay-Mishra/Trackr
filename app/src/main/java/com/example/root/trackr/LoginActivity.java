@@ -44,8 +44,8 @@ public class LoginActivity extends AppCompatActivity {
 
     public void initialize() {
         button_regLink= (Button) findViewById(R.id.buttonRegLink);
-        editText_uname= (EditText) findViewById(R.id.editTextUname);
         button_login= (Button) findViewById(R.id.buttonLogin);
+        editText_uname= (EditText) findViewById(R.id.editTextUname);
         editText_psw= (EditText) findViewById(R.id.editTextPsw);
         progressDialog = new ProgressDialog(LoginActivity.this);
         session = new SessionManager(getApplicationContext());
