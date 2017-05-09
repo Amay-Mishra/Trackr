@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/joy/AndroidStudioProjects/Trackr/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "/root/AndroidStudioProjects/Trackr/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/home/joy/.android/build-cache/94d1031144ce37effff4a84b23bc03159445149d/output/res/values/values.xml",
+                    "file": "/root/.android/build-cache/94d1031144ce37effff4a84b23bc03159445149d/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

@@ -1,7 +1,0 @@
-#Mon May 08 14:50:47 IST 2017
-base.0=/home/joy/AndroidStudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f48a1220605c35740473e3e78a40c0190bc7d648
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/home/joy/AndroidStudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a107a2bb2d024fcad22f045d40e58e451d112065/classes.dex
-base.1=/home/joy/AndroidStudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a107a2bb2d024fcad22f045d40e58e451d112065
-file.0=/home/joy/AndroidStudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f48a1220605c35740473e3e78a40c0190bc7d648/classes.dex

@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/joy/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/home/joy/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+        "merged": "/root/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/home/joy/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/home/joy/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+        "merged": "/root/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
     }
 ]

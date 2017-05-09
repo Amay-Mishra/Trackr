@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/joy/AndroidStudioProjects/Trackr/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+        "outputFile": "/root/AndroidStudioProjects/Trackr/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 125
                 },
                 "from": {
-                    "file": "/home/joy/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/values-v22/values-v22.xml",
+                    "file": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "/home/joy/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/values-v22/values-v22.xml",
+                    "file": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -50,7 +50,7 @@
                     "endOffset": 548
                 },
                 "from": {
-                    "file": "/home/joy/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/values-v22/values-v22.xml",
+                    "file": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -71,7 +71,7 @@
                     "endOffset": 896
                 },
                 "from": {
-                    "file": "/home/joy/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/values-v22/values-v22.xml",
+                    "file": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
