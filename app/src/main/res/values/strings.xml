@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Trackr</string>
 
-    <string name="uname">Username</string>
+    <string name="phone">Phone</string>
     <string name="psw">Password</string>
+    <string name="cnfpsw">Confirm password</string>
     <string name="login">Login</string>
     <string name="regLink">New User? Create Account.</string>
 
@@ -16,4 +17,7 @@
     <string name="nav_menu1">Profile</string>
     <string name="nav_menu2">Settings</string>
     <string name="nav_menu3">Logout</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 </resources>

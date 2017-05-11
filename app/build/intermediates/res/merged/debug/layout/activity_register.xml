@@ -56,35 +56,19 @@
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
-                android:id="@+id/emailWrapper"
+                android:id="@+id/phoneWrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:background="@color/inputTextBg">
 
                 <EditText
-                    android:id="@+id/editTextEmail"
+                    android:id="@+id/editTextPhone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
-                    android:hint="@string/email"
-                    android:inputType="textEmailAddress" />
-            </android.support.design.widget.TextInputLayout>
-
-            <android.support.design.widget.TextInputLayout
-                android:id="@+id/unameWrapper"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:background="@color/inputTextBg">
-
-                <EditText
-                    android:id="@+id/editTextUname"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif"
-                    android:hint="@string/uname"
-                    android:inputType="textWebEditText" />
+                    android:hint="@string/phone"
+                    android:inputType="phone" />
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
@@ -100,6 +84,22 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:hint="@string/psw"
+                    android:inputType="textPassword" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/cnfPswWrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@color/inputTextBg">
+
+                <EditText
+                    android:id="@+id/editTextCnfPsw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/cnfpsw"
                     android:inputType="textPassword" />
             </android.support.design.widget.TextInputLayout>
 

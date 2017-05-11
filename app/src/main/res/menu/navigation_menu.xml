@@ -2,13 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/nav_profile"
-        android:title="@string/nav_menu1" />
+        android:title="@string/nav_menu1"
+        android:icon="@mipmap/ic_account_circle_black_24dp"/>
 
     <item android:id="@+id/nav_settings"
-        android:title="@string/nav_menu2" />
+        android:title="@string/nav_menu2"
+        android:icon="@mipmap/ic_settings_black_24dp"/>
 
     <item android:id="@+id/nav_logout"
-        android:title="@string/nav_menu3" />
+        android:title="@string/nav_menu3"
+        android:icon="@mipmap/ic_power_settings_new_black_24dp"/>
 
 
 </menu>

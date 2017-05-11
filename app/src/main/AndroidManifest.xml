@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.root.trackr">
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,6 +20,7 @@
 
         <activity
             android:name=".RegisterActivity"
+            android:windowSoftInputMode="stateHidden"
             android:theme="@style/LoginRegTheme">
             <intent-filter>
                 <action android:name="com.example.root.trackr.RegisterActivity" />
@@ -30,6 +31,7 @@
 
         <activity
             android:name=".MainMenuActivity"
+            android:windowSoftInputMode="stateHidden"
             android:theme="@style/MainMenuTheme">
             <intent-filter>
                 <action android:name="com.example.root.trackr.MainMenuActivity" />
@@ -40,6 +42,7 @@
 
         <activity
             android:name=".LoginActivity"
+            android:windowSoftInputMode="stateHidden"
             android:theme="@style/LoginRegTheme">
             <intent-filter>
                 <action android:name="com.example.root.trackr.LoginActivity" />

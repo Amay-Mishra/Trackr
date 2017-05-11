@@ -17,7 +17,11 @@
     <color name="loginLinkText">#dddddd</color>
 
     <color name="listViewBg">#369e54</color>
-    <color name="navViewBg">#369e54</color>
+    <color name="navViewBg">#1e1d1f</color>
+    <!--<color name="navViewBg">#dddddd</color>-->
+    <color name="navViewHeader">#369e54</color>
     <color name="navMenuText">#dddddd</color>
+    <color name="navHeaderText">#dddddd</color>
+    <color name="actionBarBg">#369e54</color>
 
 </resources>

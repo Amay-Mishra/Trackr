@@ -5,8 +5,10 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="23"
+        android:minSdkVersion="21"
         android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <meta-data
         android:name="android.support.VERSION"
@@ -29,7 +31,8 @@
         </activity>
         <activity
             android:name="com.example.root.trackr.RegisterActivity"
-            android:theme="@style/LoginRegTheme" >
+            android:theme="@style/LoginRegTheme"
+            android:windowSoftInputMode="stateHidden" >
             <intent-filter>
                 <action android:name="com.example.root.trackr.RegisterActivity" />
 
@@ -38,7 +41,8 @@
         </activity>
         <activity
             android:name="com.example.root.trackr.MainMenuActivity"
-            android:theme="@style/MainMenuTheme" >
+            android:theme="@style/MainMenuTheme"
+            android:windowSoftInputMode="stateHidden" >
             <intent-filter>
                 <action android:name="com.example.root.trackr.MainMenuActivity" />
 
@@ -47,7 +51,8 @@
         </activity>
         <activity
             android:name="com.example.root.trackr.LoginActivity"
-            android:theme="@style/LoginRegTheme" >
+            android:theme="@style/LoginRegTheme"
+            android:windowSoftInputMode="stateHidden" >
             <intent-filter>
                 <action android:name="com.example.root.trackr.LoginActivity" />
 

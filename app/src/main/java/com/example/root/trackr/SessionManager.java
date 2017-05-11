@@ -14,7 +14,7 @@ public class SessionManager {
 
     // LogCat tag
     private static String TAG = SessionManager.class.getSimpleName();
-    private String fname, lname, id, uname, email;
+    private String fname, lname, id, phone;
 
     // Shared pref mode
     int PRIVATE_MODE = 0;
@@ -34,7 +34,7 @@ public class SessionManager {
         editor = pref.edit();
     }
 
-    public void setLogin(boolean isLoggedIn, String id, String fname, String lname, String uname, String email) {
+    public void setLogin(boolean isLoggedIn, String id, String fname, String lname, String phone) {
 
         editor.putBoolean(KEY_IS_LOGGEDIN, isLoggedIn);
 
@@ -42,8 +42,7 @@ public class SessionManager {
         editor.putString("lname", lname);
         editor.putString("fname", fname);
         editor.putString("id", id);
-        editor.putString("uname", uname);
-        editor.putString("email", email);
+        editor.putString("phone", phone);
         editor.commit();
 
         Log.d(TAG, "User login session modified!");
@@ -56,16 +55,14 @@ public class SessionManager {
             fname= pref.getString("fname", fname);
             lname= pref.getString("lname", lname);
             id= pref.getString("id", id);
-            uname= pref.getString("uname", uname);
-            email= pref.getString("email", email);
+            phone= pref.getString("phone", phone);
         }
 
         Bundle bundle= new Bundle();
         bundle.putString("fname", fname);
         bundle.putString("lname", lname);
         bundle.putString("id", id);
-        bundle.putString("uname", uname);
-        bundle.putString("email", email);
+        bundle.putString("phone", phone);
 
         return bundle;
     }

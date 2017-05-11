@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -11,8 +12,7 @@ import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import org.json.JSONArray;
+import com.android.volley.toolbox.JsonObjectRequest;
 import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.HashMap;
@@ -22,8 +22,8 @@ import java.util.Map;
 public class LoginActivity extends AppCompatActivity {
     private Button button_regLink;
     private Button button_login;
-    private EditText editText_uname, editText_psw;
-    private String uname, psw, id, fname, lname, email, code, message;
+    private EditText editText_phone, editText_psw;
+    private String phone, psw, id, fname, lname, code, message;
     private static final int REQUEST_REGISTER= 0;
     private ProgressDialog progressDialog;
     private SessionManager session;
@@ -45,7 +45,7 @@ public class LoginActivity extends AppCompatActivity {
     public void initialize() {
         button_login= (Button) findViewById(R.id.buttonLogin);
         button_regLink= (Button) findViewById(R.id.buttonRegLink);
-        editText_uname= (EditText) findViewById(R.id.editTextUname);
+        editText_phone= (EditText) findViewById(R.id.editTextPhone);
         editText_psw= (EditText) findViewById(R.id.editTextPsw);
         progressDialog = new ProgressDialog(LoginActivity.this);
         session = new SessionManager(getApplicationContext());
@@ -56,9 +56,9 @@ public class LoginActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        editText_uname.setError(null);
+                        editText_phone.setError(null);
                         editText_psw .setError(null);
-                        editText_uname.setText("");
+                        editText_phone.setText("");
                         editText_psw.setText("");
                         Intent intent= new Intent("com.example.root.trackr.RegisterActivity");
                         startActivityForResult(intent, REQUEST_REGISTER);
@@ -104,26 +104,28 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
 
-        uname= editText_uname.getText().toString();
+        phone= editText_phone.getText().toString();
         psw= editText_psw.getText().toString();
 
+        Map<String, String> postParam= new HashMap<String, String>();
+        postParam.put("phone", phone);
+        postParam.put("psw", psw);
+
         //authentication logic.
-        StringRequest stringRequest= new StringRequest(
+        JsonObjectRequest jsonObjectRequest= new JsonObjectRequest(
                 Request.Method.POST,
                 login_url,
-                new Response.Listener<String>() {
+                new JSONObject(postParam),
+                new Response.Listener<JSONObject>() {
                     @Override
-                    public void onResponse(String response) {
+                    public void onResponse(JSONObject jsonObject) {
                         try {
-                            JSONArray jsonArray= new JSONArray(response);
-                            JSONObject jsonObject= jsonArray.getJSONObject(0);
 
-                            code= jsonObject.getString("code");
-                            if(code.equals("login_success")) {
+                            code = jsonObject.getString("code");
+                            if (code.equals("login_success")) {
                                 id = jsonObject.getString("id");
                                 fname = jsonObject.getString("fname");
                                 lname = jsonObject.getString("lname");
-                                email = jsonObject.getString("email");
                             }
                             progressDialog.setIndeterminate(true);
                             progressDialog.setMessage("Authenticating...");
@@ -144,14 +146,13 @@ public class LoginActivity extends AppCompatActivity {
                 }
         ){
             @Override
-            protected Map<String, String> getParams() throws AuthFailureError {
-                Map<String, String> params= new HashMap<String, String>();
-                params.put("uname", uname);
-                params.put("psw", psw);
-                return params;
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                HashMap<String, String> headers = new HashMap<String, String>();
+                headers.put("Content-Type", "application/json; charset=utf-8");
+                return headers;
             }
         };
-        MySingleton.getInstance(LoginActivity.this).addToRequestQueue(stringRequest);
+        MySingleton.getInstance(LoginActivity.this).addToRequestQueue(jsonObjectRequest);
     }
 
     public void onBackPressed() {
@@ -160,7 +161,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void onLoginSuccess() {
-        session.setLogin(true, id, fname, lname, uname, email);
+        session.setLogin(true, id, fname, lname, phone);
         checkLoginStatus();
     }
 
@@ -170,18 +171,18 @@ public class LoginActivity extends AppCompatActivity {
 
     public boolean validate() {
         //fetch data into corresponding strings to validate
-        uname= editText_uname.getText().toString();
+        phone= editText_phone.getText().toString();
         psw= editText_psw.getText().toString();
 
         boolean valid= true;
 
-        //validate uname
-        if(uname.isEmpty()|| uname.length()< 3) {
-            editText_uname.setError("at least 3 characters");
+        //validate phone
+        if(phone.isEmpty()|| !Patterns.PHONE.matcher(phone).matches()|| phone.length()< 10) {
+            editText_phone.setError("enter a valid phone number");
             valid= false;
         }
         else {
-            editText_uname.setError(null);
+            editText_phone.setError(null);
         }
 
         //validate psw
