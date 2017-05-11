@@ -45,40 +45,46 @@ function hash(input,salt){
 }
 
 app.post("/login",function(req,res){
-  var username = req.body.username;
-  var password = req.body.password;
-  pool.query('SELECT * FROM "users" WHERE username = $1',[username],function(err,result){
+  var phone = req.body.phone;
+  var password = req.body.psw;
+  var obj;
+  console.log(phone);
+  pool.query('SELECT * FROM "users" WHERE phone = $1',[phone],function(err,result){
     if (err) {
-      res.status(500).send(err.toString())
+      obj = {"code":"login_failed"};
+      res.send(JSON.stringify(obj));
+      console.log(obj);
+      //console.log(err.toString());
+      //res.status(500).send(err.toString())
     }
     else {
     	if(result.rows.length === 0) {
-    		res.status(403).send("Invalid username or password");
+        obj = {"code":"login_failed"};
+        res.send(JSON.stringify(obj));
+	console.log(obj);
+	//console.log(err.toString());
+        //res.status(403).send("Invalid username or password");
     	}
     	else
     	{
     		var db_pass = result.rows[0].password;
-    		var user_pass = hash(password,username);
+		var fname = result.rows[0].fname;
+    		var user_pass = hash(password,fname);
     		if(user_pass === db_pass) {
-          req.session.auth = {userId: result.rows[0].user_id};
-          console.log();
-          res.send("Credentials Valid");
+		  	obj = {"code":"login_success","id":result.rows[0].user_id,"fname":result.rows[0].fname,"lname":result.rows[0].lname};
+		  	res.send(JSON.stringify(obj));
+			console.log(obj);
     		}
     		else {
-    			res.status(403).send("Invalid username or password");
+		       obj = {"code":"login_failed"};
+		       res.send(JSON.stringify(obj));
+			console.log(obj);
+			//console.log(err.toString());
+    		       //res.status(403).send("Invalid username or password");
     		}
     	}
     }
   });
-});
-
-app.get('/check-login',function(req,res) {
-  if(req.session && req.session.auth && req.session.auth.userId) {
-    res.send("You are logged in as: " + req.session.auth.userId.toString());
-  }
-  else {
-    res.send("You are not logged in");
-  }
 });
 
 app.get('/logout',function(req,res) {
@@ -87,18 +93,29 @@ app.get('/logout',function(req,res) {
 });
 
 app.post("/register",function(req,res){
-  var fame = req.body.fname;
+  var fname = req.body.fname;
   var lname = req.body.lname;
   var phone = req.body.phone;
-  var password = req.body.password;
-  var db_pass = hash(password,username);
+  var password = req.body.psw;
+  console.log(fname);
+  console.log(lname);
+  console.log(phone);
+  console.log(password);
+  var db_pass = hash(password,fname);
+  var obj;
   pool.query('INSERT INTO "users" (fname,lname,phone,password) VALUES ($1,$2,$3,$4)',[fname,lname,phone,db_pass],function(err,result){
     if(err){
-      res.status(500).send(err.toString());
+      //res.status(500).send(err.toString());
+      obj = {"code":"reg_failed"};
+    	console.log(obj);
+      console.log(err.toString());
+    	res.send(JSON.stringify(obj));
     }
     else{
-      // res.send("User succesfully registered");
-      res.send(JSON.stringify(result.rows));
+        obj = {"code":"reg_success"};
+	      console.log(obj);
+        res.send(JSON.stringify(obj));
+        //res.send(JSON.stringify(result.rows));
     }
   });
 });
@@ -126,4 +143,3 @@ app.listen(8080, function () {
 //   res.send(hashedString);
 // });
 //
-
