@@ -1,66 +1,34 @@
 [
     {
-        "merged": "/home/joy/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/home/joy/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable-v21/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/home/joy/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
-        "source": "/home/joy/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/drawable-v21/avd_show_password.xml"
-    },
-    {
-        "merged": "/home/joy/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
-        "source": "/home/joy/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/drawable-v21/avd_hide_password.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
         "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/drawable-v21/avd_show_password.xml"
     },
     {
-        "merged": "/home/joy/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
-        "source": "/home/joy/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable-v21/notification_action_background.xml"
-    },
-    {
-        "merged": "/home/joy/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
-        "source": "/home/joy/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/drawable-v21/design_password_eye.xml"
-    },
-    {
-        "merged": "/home/joy/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
-        "source": "/home/joy/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "/home/joy/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/home/joy/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "/home/joy/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/home/joy/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable-v21/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
-        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/drawable-v21/avd_hide_password.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
-        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/drawable-v21/design_password_eye.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
-        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable-v21/notification_action_background.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable-v21/notification_action_background.xml"
     }
 ]

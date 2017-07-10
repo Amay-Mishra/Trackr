@@ -20,4 +20,12 @@
 
     <string name="open">Open</string>
     <string name="close">Close</string>
+
+    <string name="power_mode">Power Mode</string>
+    <string name="normal">Normal</string>
+    <string name="power_saver">Power Saver</string>
+    <string name="enable_tracking">Enable Tracking </string>
+    <string name="permission_manager_link">Open Permission Manager</string>
+    <string name="tracking_enabled">Tracking is going on...</string>
+    <string name="tracking_disabled">Tracking is currently disabled.</string>
 </resources>

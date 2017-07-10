@@ -10,21 +10,98 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:weightSum="1">
 
         <include
             layout="@layout/navigation_action"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <TextView
-            android:id="@+id/textView"
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_gravity="center_vertical"
-            android:text="@string/app_name"
-            android:textAlignment="center"
-            android:textSize="24sp" />
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:weightSum="1">
+
+            <Switch
+                android:id="@+id/switchEnableTracking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:text="@string/enable_tracking"
+                android:textSize="24sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textViewTrackingStatus"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/switchEnableTracking"
+                android:paddingTop="5dp"
+                android:text="@string/tracking_disabled" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="195dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45dp"
+                android:orientation="horizontal"
+                android:id="@+id/relativeLayout"
+                android:background="@color/powerMode"
+                android:layout_below="@+id/textViewTrackingStatus"
+                android:layout_alignParentStart="true">
+
+                <RadioGroup
+                    android:id="@+id/radioGroupMode"
+                    android:layout_width="match_parent"
+                    android:layout_height="179dp"
+                    android:padding="30dp">
+
+                    <TextView
+                        android:id="@+id/textViewMode"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/power_mode"
+                        android:textColor="@color/powerModeHeader"
+                        android:textSize="24sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtonNormal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:checked="false"
+                        android:text="@string/normal" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtonPowerSaver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:checked="false"
+                        android:text="@string/power_saver" />
+
+                </RadioGroup>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/permission_manager_link"
+                android:layout_marginTop="77dp"
+                android:background="@color/permissionManagerLink"
+                android:layout_below="@+id/relativeLayout"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
 
     </LinearLayout>
 

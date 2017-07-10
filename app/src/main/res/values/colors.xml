@@ -24,4 +24,8 @@
     <color name="navHeaderText">#dddddd</color>
     <color name="actionBarBg">#369e54</color>
 
+    <color name="permissionManagerLink">#369e54</color>
+    <color name="powerMode">#dddddd</color>
+    <color name="powerModeHeader">#1e1d1f</color>
+
 </resources>
