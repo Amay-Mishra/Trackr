@@ -5,19 +5,19 @@ var crypto = require("crypto");
 var app = express();
 
 
-var hashing = {
+/*var hashing = {
   iterations  : 10000,
   outputLen : 512,
   hashFunc  : 'sha512'
-};
+};*/
 
-var config = {
+/*var config = {
   host: 'localhost',
   user: 'root',
   database: 'Trackr',
   port: '5432',
   password: 'toor'
-};
+};*/
 
 var pool = new Pool(config);
 
