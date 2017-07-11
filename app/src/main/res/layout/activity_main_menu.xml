@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
             android:weightSum="1">
@@ -47,9 +47,9 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="195dp"
+                android:layout_height="120dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="45dp"
+                android:layout_marginTop="13dp"
                 android:orientation="horizontal"
                 android:id="@+id/relativeLayout"
                 android:background="@color/powerMode"
@@ -59,17 +59,18 @@
                 <RadioGroup
                     android:id="@+id/radioGroupMode"
                     android:layout_width="match_parent"
-                    android:layout_height="179dp"
-                    android:padding="30dp">
+                    android:layout_height="120dp"
+                    android:padding="10dp"
+                    android:layout_alignParentStart="true">
 
                     <TextView
                         android:id="@+id/textViewMode"
                         android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:layout_marginBottom="10dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="5dp"
                         android:text="@string/power_mode"
                         android:textColor="@color/powerModeHeader"
-                        android:textSize="24sp" />
+                        android:textSize="20sp" />
 
                     <RadioButton
                         android:id="@+id/radioButtonNormal"
@@ -90,15 +91,45 @@
                 </RadioGroup>
             </RelativeLayout>
 
+            <TextView
+                android:id="@+id/textViewOnilineFriendsSubHeader"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="@color/subHeader"
+                android:text="@string/sub_header"
+                android:textSize="24sp"
+                android:layout_below="@+id/relativeLayout"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="33dp" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/listViewOnlineFriends"
+                android:layout_marginTop="10dp"
+                android:background="@color/listViewBg"
+                android:scrollbars="vertical"
+                android:layout_below="@+id/textViewOnilineFriendsSubHeader"
+                android:layout_alignParentStart="true" />
+
             <Button
                 android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/permission_manager_link"
-                android:layout_marginTop="77dp"
-                android:background="@color/permissionManagerLink"
-                android:layout_below="@+id/relativeLayout"
+                android:text="@string/track_friend_link"
+                android:background="@color/trackFriendLink"
+                android:layout_marginTop="2dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="14dp" />
+
+            <TextView
+                android:id="@+id/textViewSelectedFriend"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="@string/selected_friend_init_msg"
+                android:layout_below="@+id/listViewOnlineFriends"
+                android:layout_marginTop="11dp"
                 android:layout_alignParentStart="true" />
 
         </RelativeLayout>

@@ -16,7 +16,7 @@
     <color name="loginLink">#00369e54</color>
     <color name="loginLinkText">#dddddd</color>
 
-    <color name="listViewBg">#369e54</color>
+
     <color name="navViewBg">#1e1d1f</color>
     <!--<color name="navViewBg">#dddddd</color>-->
     <color name="navViewHeader">#369e54</color>
@@ -24,8 +24,13 @@
     <color name="navHeaderText">#dddddd</color>
     <color name="actionBarBg">#369e54</color>
 
+    <color name="listViewBg">#dddddd</color>
+
+    <color name="trackFriendLink">#369e54</color>
     <color name="permissionManagerLink">#369e54</color>
     <color name="powerMode">#dddddd</color>
     <color name="powerModeHeader">#1e1d1f</color>
+
+    <color name="subHeader">#1e1d1f</color>
 
 </resources>

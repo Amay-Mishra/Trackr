@@ -140,7 +140,7 @@
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="inputTextBg">#dddddd</color>
-    <color name="listViewBg">#369e54</color>
+    <color name="listViewBg">#dddddd</color>
     <color name="loginBg">#1e1d1f</color>
     <color name="loginBut">#369e54</color>
     <color name="loginLink">#00369e54</color>
@@ -185,10 +185,12 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="subHeader">#1e1d1f</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="trackFriendLink">#369e54</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
             
             <enum name="normal" value="0"/>
@@ -715,7 +717,7 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
-    <string name="permission_manager_link">Open Permission Manager</string>
+    <string name="permission_manager_link">Permission Manager</string>
     <string name="phone">Phone</string>
     <string name="power_mode">Power Mode</string>
     <string name="power_saver">Power Saver</string>
@@ -723,7 +725,11 @@
     <string name="reg">Create Account</string>
     <string name="regLink">New User? Create Account.</string>
     <string name="search_menu_title">Search</string>
+    <string name="selected_friend">Selected Friend: </string>
+    <string name="selected_friend_init_msg">No friends selected yet. Click on friend to select.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="sub_header">Online Friends</string>
+    <string name="track_friend_link">Track</string>
     <string name="tracking_disabled">Tracking is currently disabled.</string>
     <string name="tracking_enabled">Tracking is going on...</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

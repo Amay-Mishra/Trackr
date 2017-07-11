@@ -25,7 +25,12 @@
     <string name="normal">Normal</string>
     <string name="power_saver">Power Saver</string>
     <string name="enable_tracking">Enable Tracking </string>
-    <string name="permission_manager_link">Open Permission Manager</string>
+    <string name="track_friend_link">Track</string>
+    <string name="permission_manager_link">Permission Manager</string>
     <string name="tracking_enabled">Tracking is going on...</string>
     <string name="tracking_disabled">Tracking is currently disabled.</string>
+    <string name="sub_header">Online Friends</string>
+
+    <string name="selected_friend_init_msg">No friends selected yet. Click on friend to select.</string>
+    <string name="selected_friend">Selected Friend: </string>
 </resources>

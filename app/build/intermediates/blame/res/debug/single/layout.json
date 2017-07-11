@@ -164,6 +164,10 @@
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/list_online_friends.xml",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/layout/list_online_friends.xml"
+    },
+    {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_search_view.xml"
     },
