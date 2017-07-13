@@ -4,30 +4,34 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.annotation.Nullable;
 
+import com.google.gson.annotations.SerializedName;
+
 /**
- * Created by Debargha Bhattacharjee on 12/7/17.
+ * Created by root on 13/7/17.
  */
 
 public class User implements Parcelable {
-
-    public User(@Nullable String phone, @Nullable String password, @Nullable int id, @Nullable String lname, @Nullable String fname) {
+    public User(@Nullable String phone, @Nullable  String password, @Nullable int id, @Nullable String fname, @Nullable String lname, @Nullable String authToken) {
         this.phone = phone;
         this.password = password;
         this.id = id;
-        this.lname = lname;
         this.fname = fname;
+        this.lname = lname;
+        this.authToken = authToken;
     }
 
-    @com.google.gson.annotations.SerializedName("phone")
+    @SerializedName("phone")
     private String phone;
-    @com.google.gson.annotations.SerializedName("password")
+    @SerializedName("password")
     private String password;
-    @com.google.gson.annotations.SerializedName("id")
+    @SerializedName("id")
     private int id;
-    @com.google.gson.annotations.SerializedName("lname")
-    private String lname;
-    @com.google.gson.annotations.SerializedName("fname")
+    @SerializedName("fname")
     private String fname;
+    @SerializedName("lname")
+    private String lname;
+    @SerializedName("auth_token")
+    private String authToken;
 
     public String getPhone() {
         return phone;
@@ -53,6 +57,14 @@ public class User implements Parcelable {
         this.id = id;
     }
 
+    public String getFname() {
+        return fname;
+    }
+
+    public void setFname(String fname) {
+        this.fname = fname;
+    }
+
     public String getLname() {
         return lname;
     }
@@ -61,12 +73,12 @@ public class User implements Parcelable {
         this.lname = lname;
     }
 
-    public String getFname() {
-        return fname;
+    public String getAuthToken() {
+        return authToken;
     }
 
-    public void setFname(String fname) {
-        this.fname = fname;
+    public void setAuthToken(String authToken) {
+        this.authToken = authToken;
     }
 
     @Override
@@ -79,8 +91,9 @@ public class User implements Parcelable {
         dest.writeString(this.phone);
         dest.writeString(this.password);
         dest.writeInt(this.id);
-        dest.writeString(this.lname);
         dest.writeString(this.fname);
+        dest.writeString(this.lname);
+        dest.writeString(this.authToken);
     }
 
     public User() {
@@ -90,8 +103,9 @@ public class User implements Parcelable {
         this.phone = in.readString();
         this.password = in.readString();
         this.id = in.readInt();
-        this.lname = in.readString();
         this.fname = in.readString();
+        this.lname = in.readString();
+        this.authToken = in.readString();
     }
 
     public static final Parcelable.Creator<User> CREATOR = new Parcelable.Creator<User>() {

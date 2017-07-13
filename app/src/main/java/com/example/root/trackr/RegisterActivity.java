@@ -13,8 +13,7 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.StringRequest;
-import org.json.JSONArray;
+import com.google.gson.Gson;
 import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.HashMap;
@@ -24,7 +23,7 @@ public class RegisterActivity extends AppCompatActivity {
 
     private Button button_reg, button_loginLink;
     private EditText editText_fname, editText_lname, editText_phone, editText_psw, editText_cnfpsw;
-    private String fname, lname, phone, psw, cnfpsw, code="";
+    private String fname, lname, phone, psw, cnfpsw, auth_token= null;
     private ProgressDialog progressDialog;
 
     private String reg_url= AppConfig.REGISTER_URL;
@@ -88,30 +87,47 @@ public class RegisterActivity extends AppCompatActivity {
         psw = editText_psw.getText().toString();
         Log.d("STATUS", fname + " " + lname + " " + phone + " " + psw + " ");
 
-
-
-        Map<String, String> postParam= new HashMap<String, String>();
-        postParam.put("fname", fname);
-        postParam.put("lname", lname);
-        postParam.put("phone", phone);
-        postParam.put("psw", psw);
+        final User requestUser = new User(phone, psw, 0, lname, fname, auth_token);
+        Gson gson = new Gson();
+        String postUser = gson.toJson(requestUser, User.class);
 
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
                 Request.Method.POST,
                 reg_url,
-                new JSONObject(postParam),
+                postUser,
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject jsonObject) {
                         try {
-                            code = jsonObject.getString("code");
+                            Log.d("RESPONSE", jsonObject.toString());
+                            Gson gson = new Gson();
+                            User responseUser = gson.fromJson(jsonObject.toString(), User.class);
+                            try {
+                                if(!(responseUser.getAuthToken() == null)) {
+                                    progressDialog.setIndeterminate(true);
+                                    progressDialog.setMessage("Creating account...");
+                                    progressDialog.show();
+                                    new android.os.Handler().postDelayed(
+                                            new Runnable() {
+                                                @Override
+                                                public void run() {
+                                                    onRegisterSuccess();
+                                                    progressDialog.dismiss();
+                                                }
+                                            },
+                                            3000
+                                    );
+                                }
+                                else {
+                                    Message.message(RegisterActivity.this, "User already exists...");
+                                    onRegisterFailed();
+                                }
 
-                            progressDialog.setIndeterminate(true);
-                            progressDialog.setMessage("Creating account...");
+                            } catch (NullPointerException ne) {
+                               ne.printStackTrace();
+                            }
 
-                            displayAlert(code);
-
-                        } catch (JSONException e) {
+                        } catch (Exception e) {
                             e.printStackTrace();
                         }
                     }
@@ -126,8 +142,10 @@ public class RegisterActivity extends AppCompatActivity {
         ) {
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
+                super.getHeaders();
                 HashMap<String, String> headers = new HashMap<String, String>();
-                headers.put("Content-Type", "application/json; charset=utf-8");
+                headers.put("Content-Type", "application/json");
+                headers.put("charset", "utf-8");
                 return headers;
             }
         };
@@ -205,25 +223,4 @@ public class RegisterActivity extends AppCompatActivity {
         return valid;
     }
 
-    public void displayAlert(final String code) {
-
-        if(code.equals("reg_success")) {
-            progressDialog.show();
-            new android.os.Handler().postDelayed(
-                    new Runnable() {
-                        @Override
-                        public void run() {
-                            onRegisterSuccess();
-                            progressDialog.dismiss();
-                        }
-                    },
-                    3000
-            );
-        }
-
-        else if(code.equals("reg_failed")) {
-            Message.message(RegisterActivity.this, "User already exits...");
-            onRegisterFailed();
-        }
-    }
 }

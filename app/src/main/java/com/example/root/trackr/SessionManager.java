@@ -1,74 +1,69 @@
 package com.example.root.trackr;
 
-/**
- * Created by joy on 8/5/17.
- */
-
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.google.gson.Gson;
+
+/**
+ * Created by root on 13/7/17.
+ */
+
 public class SessionManager {
 
     // LogCat tag
     private static String TAG = SessionManager.class.getSimpleName();
-    private String fname, lname, id, phone;
+
+    private User currentUser;
+    private String auth_token;
+    private Context context;
+    private SharedPreferences mPrefs;
+    private Editor prefsEditor;
+    private String userData;
 
     // Shared pref mode
     int PRIVATE_MODE = 0;
-
-    //SharedPreferences
-    private SharedPreferences pref;
-    private Editor editor;
-    private Context context;
 
     //SharedPreferences filename
     private static final String PREF_NAME = "TrackrLogin";
     private static final String KEY_IS_LOGGEDIN = "isLoggedIn";
 
-    public SessionManager(Context context) {
+    SessionManager(Context context, User user, String token) {
         this.context = context;
-        pref = context.getSharedPreferences(PREF_NAME, PRIVATE_MODE);
-        editor = pref.edit();
+        mPrefs = context.getSharedPreferences(PREF_NAME, PRIVATE_MODE);
+        prefsEditor = mPrefs.edit();
+        currentUser = user;
+        auth_token = token;
     }
 
-    public void setLogin(boolean isLoggedIn, String id, String fname, String lname, String phone) {
+    public void setLogin(boolean isLoggedIn) {
+        Gson gson = new Gson();
+        String userData = gson.toJson(currentUser, User.class);
+        prefsEditor.putString("currentUser", userData);
+        prefsEditor.putString("auth_token", auth_token);
+        prefsEditor.commit();
 
-        editor.putBoolean(KEY_IS_LOGGEDIN, isLoggedIn);
-
-        // commit changes
-        editor.putString("lname", lname);
-        editor.putString("fname", fname);
-        editor.putString("id", id);
-        editor.putString("phone", phone);
-        editor.commit();
-
+        //To check in COnsole screen for Debugging
         Log.d(TAG, "User login session modified!");
-
     }
 
-    //load session data
     public Bundle loadSessionData() {
-        if(pref!= null) {
-            fname= pref.getString("fname", fname);
-            lname= pref.getString("lname", lname);
-            id= pref.getString("id", id);
-            phone= pref.getString("phone", phone);
+        if (mPrefs != null) {
+            userData = mPrefs.getString("currentUser", "");
+            auth_token = mPrefs.getString("auth_token", "");
         }
 
-        Bundle bundle= new Bundle();
-        bundle.putString("fname", fname);
-        bundle.putString("lname", lname);
-        bundle.putString("id", id);
-        bundle.putString("phone", phone);
+        Bundle bundle = new Bundle();
+        bundle.putString("currentUser", userData);
+        bundle.putString("auth_token", auth_token);
 
         return bundle;
     }
 
     public boolean isLoggedIn(){
-        return pref.getBoolean(KEY_IS_LOGGEDIN, false);
+        return mPrefs.getBoolean(KEY_IS_LOGGEDIN, false);
     }
 }
-

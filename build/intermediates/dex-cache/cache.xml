@@ -2,22 +2,13 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/root/StudioProjects/Trackr/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.1/2a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0/gson-2.8.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a630766e98caef43166b5393be1036ef0296e4da/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/root/StudioProjects/Trackr/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ce6cd5e55830dd8c908baabaa58f6f02c644ee14">
-        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b19d856a412fe577738984caf821b1cd5c9ccbe8/classes.dex" />
+        sha1="02a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0">
+        <dex dex="/root/StudioProjects/Trackr/app/build/intermediates/pre-dexed/debug/gson-2.8.1_fa54bbb948664cbbf0f1e41c6053f97be1e47aff.jar" />
     </item>
 
 </items>

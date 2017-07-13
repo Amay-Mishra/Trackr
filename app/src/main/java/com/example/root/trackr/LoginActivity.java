@@ -28,6 +28,7 @@ public class LoginActivity extends AppCompatActivity {
     private ProgressDialog progressDialog;
     private SessionManager session;
     private String login_url= AppConfig.LOGIN_URL;
+    public User user = new User(null, null, 0, null, null, null);
 
 
     @Override
@@ -48,7 +49,7 @@ public class LoginActivity extends AppCompatActivity {
         editText_phone= (EditText) findViewById(R.id.editTextPhone);
         editText_psw= (EditText) findViewById(R.id.editTextPsw);
         progressDialog = new ProgressDialog(LoginActivity.this);
-        session = new SessionManager(getApplicationContext());
+        session = new SessionManager(getApplicationContext(), user, "sdfghjkfghjk");
     }
 
     public void addListenerForButton() {
@@ -130,8 +131,6 @@ public class LoginActivity extends AppCompatActivity {
                             progressDialog.setIndeterminate(true);
                             progressDialog.setMessage("Authenticating...");
 
-                            displayAlert(code);
-
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
@@ -161,7 +160,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void onLoginSuccess() {
-        session.setLogin(true, id, fname, lname, phone);
+        session.setLogin(true);
         checkLoginStatus();
     }
 

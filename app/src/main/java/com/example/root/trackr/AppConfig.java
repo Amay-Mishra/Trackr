@@ -12,11 +12,13 @@ public class AppConfig {
     public static String OFFLINE_URL= "http://192.168.1.11/get-list2-offline.php";
 
     //server user register url
-    public static String REGISTER_URL= "http://192.168.1.11:8080/register";
+    public static String REGISTER_URL= "http://trackr.trackr.hasura.me/register";
 
     //map connection url
     public static String MAP_URL_GET= "http://192.168.1.11/get_position_trackr.php";
 
     //map connection url
     public static String MAP_URL_SEND= "http://192.168.1.11/send_position_trackr.php";
+
+    //server auth-token url
 }
