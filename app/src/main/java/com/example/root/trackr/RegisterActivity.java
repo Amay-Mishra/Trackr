@@ -103,7 +103,8 @@ public class RegisterActivity extends AppCompatActivity {
                             Gson gson = new Gson();
                             User responseUser = gson.fromJson(jsonObject.toString(), User.class);
                             try {
-                                if(!(responseUser.getAuthToken() == null)) {
+                                auth_token = responseUser.getAuthToken();
+                                if(!(auth_token == null)) {
                                     progressDialog.setIndeterminate(true);
                                     progressDialog.setMessage("Creating account...");
                                     progressDialog.show();

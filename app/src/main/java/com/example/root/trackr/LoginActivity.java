@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
@@ -13,6 +14,8 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.google.gson.Gson;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.HashMap;
@@ -23,11 +26,12 @@ public class LoginActivity extends AppCompatActivity {
     private Button button_regLink;
     private Button button_login;
     private EditText editText_phone, editText_psw;
-    private String phone, psw, id, fname, lname, code, message;
+    private String phone, psw, auth_token, id, fname, lname, code, message;
     private static final int REQUEST_REGISTER= 0;
     private ProgressDialog progressDialog;
     private SessionManager session;
     private String login_url= AppConfig.LOGIN_URL;
+    private String account_info_url= AppConfig.ACCOUNT_INFO_URL;
     public User user = new User(null, null, 0, null, null, null);
 
 
@@ -49,7 +53,7 @@ public class LoginActivity extends AppCompatActivity {
         editText_phone= (EditText) findViewById(R.id.editTextPhone);
         editText_psw= (EditText) findViewById(R.id.editTextPsw);
         progressDialog = new ProgressDialog(LoginActivity.this);
-        session = new SessionManager(getApplicationContext(), user, "sdfghjkfghjk");
+        session = new SessionManager(getApplicationContext(), user);
     }
 
     public void addListenerForButton() {
@@ -78,7 +82,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void checkLoginStatus() {
-        if (session.isLoggedIn()) {
+        if (session.loginStatus()) {
             // User is already logged in. Take him to LoginSuccessActivity
             Intent intent = new Intent("com.example.root.trackr.MainMenuActivity");
             startActivity(intent);
@@ -108,30 +112,50 @@ public class LoginActivity extends AppCompatActivity {
         phone= editText_phone.getText().toString();
         psw= editText_psw.getText().toString();
 
-        Map<String, String> postParam= new HashMap<String, String>();
-        postParam.put("phone", phone);
-        postParam.put("psw", psw);
+        final User requestUser = new User(null, null, 0, null, null, null);
+        Gson gson = new Gson();
+        String postUser = gson.toJson(requestUser, User.class);
+
 
         //authentication logic.
         JsonObjectRequest jsonObjectRequest= new JsonObjectRequest(
                 Request.Method.POST,
                 login_url,
-                new JSONObject(postParam),
+                postUser,
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject jsonObject) {
                         try {
+                            Log.d("RESPONSE", jsonObject.toString());
+                            Gson gson = new Gson();
+                            User responseUser = gson.fromJson(jsonObject.toString(), User.class);
 
-                            code = jsonObject.getString("code");
-                            if (code.equals("login_success")) {
-                                id = jsonObject.getString("id");
-                                fname = jsonObject.getString("fname");
-                                lname = jsonObject.getString("lname");
+                            try {
+                                auth_token = responseUser.getAuthToken();
+                                if (!(auth_token == null)) {
+                                    progressDialog.setIndeterminate(true);
+                                    progressDialog.setMessage("Authenticating...");
+                                    progressDialog.show();
+                                    new android.os.Handler().postDelayed(
+                                            new Runnable() {
+                                                @Override
+                                                public void run() {
+                                                    onLoginSuccess();
+                                                    progressDialog.dismiss();
+                                                }
+                                            },
+                                            3000
+                                    );
+
+                                } else {
+                                    Message.message(LoginActivity.this, "User not found...Please try again");
+                                    onLoginFailed();
+                                }
+
+                            } catch (NullPointerException ne) {
+                                ne.printStackTrace();
                             }
-                            progressDialog.setIndeterminate(true);
-                            progressDialog.setMessage("Authenticating...");
-
-                        } catch (JSONException e) {
+                        } catch (Exception e) {
                             e.printStackTrace();
                         }
                     }
@@ -146,8 +170,10 @@ public class LoginActivity extends AppCompatActivity {
         ){
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
+                super.getHeaders();
                 HashMap<String, String> headers = new HashMap<String, String>();
-                headers.put("Content-Type", "application/json; charset=utf-8");
+                headers.put("Content-Type", "application/json");
+                headers.put("charset", "utf-8");
                 return headers;
             }
         };
@@ -160,8 +186,37 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void onLoginSuccess() {
-        session.setLogin(true);
+        //authentication logic.
         checkLoginStatus();
+        JsonObjectRequest jsonObjectRequest= new JsonObjectRequest(
+                Request.Method.GET,
+                account_info_url,
+                new Response.Listener<JSONObject>() {
+                    @Override
+                    public void onResponse(JSONObject jsonObject) {
+                        Gson gson = new Gson();
+                        User responseUser = gson.fromJson(jsonObject.toString(), User.class);
+                        session = new SessionManager(LoginActivity.this, responseUser);
+                        session.setLogin();
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Message.message(LoginActivity.this, "Error...");
+                        error.printStackTrace();
+                    }
+                }
+        ){
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                super.getHeaders();
+                HashMap<String, String> headers = new HashMap<String, String>();
+                headers.put("Authorization", "Bearer "+ auth_token);
+                return headers;
+            }
+        };
+        MySingleton.getInstance(LoginActivity.this).addToRequestQueue(jsonObjectRequest);
     }
 
     public void onLoginFailed() {
@@ -195,28 +250,5 @@ public class LoginActivity extends AppCompatActivity {
 
         return valid;
     }
-
-    public void displayAlert(final String code) {
-
-        if(code.equals("login_success")) {
-            progressDialog.show();
-            new android.os.Handler().postDelayed(
-                    new Runnable() {
-                        @Override
-                        public void run() {
-                            onLoginSuccess();
-                            progressDialog.dismiss();
-                        }
-                    },
-                    3000
-            );
-        }
-
-        else if(code.equals("login_failed")) {
-            Message.message(LoginActivity.this, "User not found...Please try again");
-            onLoginFailed();
-        }
-    }
-
 
 }

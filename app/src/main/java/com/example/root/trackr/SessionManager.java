@@ -18,7 +18,6 @@ public class SessionManager {
     private static String TAG = SessionManager.class.getSimpleName();
 
     private User currentUser;
-    private String auth_token;
     private Context context;
     private SharedPreferences mPrefs;
     private Editor prefsEditor;
@@ -29,21 +28,19 @@ public class SessionManager {
 
     //SharedPreferences filename
     private static final String PREF_NAME = "TrackrLogin";
-    private static final String KEY_IS_LOGGEDIN = "isLoggedIn";
 
-    SessionManager(Context context, User user, String token) {
+    SessionManager(Context context, User user) {
         this.context = context;
         mPrefs = context.getSharedPreferences(PREF_NAME, PRIVATE_MODE);
         prefsEditor = mPrefs.edit();
         currentUser = user;
-        auth_token = token;
     }
 
-    public void setLogin(boolean isLoggedIn) {
+    public void setLogin() {
         Gson gson = new Gson();
         String userData = gson.toJson(currentUser, User.class);
         prefsEditor.putString("currentUser", userData);
-        prefsEditor.putString("auth_token", auth_token);
+        prefsEditor.putBoolean("loginStatus", true);
         prefsEditor.commit();
 
         //To check in COnsole screen for Debugging
@@ -53,17 +50,15 @@ public class SessionManager {
     public Bundle loadSessionData() {
         if (mPrefs != null) {
             userData = mPrefs.getString("currentUser", "");
-            auth_token = mPrefs.getString("auth_token", "");
         }
 
         Bundle bundle = new Bundle();
         bundle.putString("currentUser", userData);
-        bundle.putString("auth_token", auth_token);
 
         return bundle;
     }
 
-    public boolean isLoggedIn(){
-        return mPrefs.getBoolean(KEY_IS_LOGGEDIN, false);
+    public boolean loginStatus() {
+       return mPrefs.getBoolean("loginStatus", false);
     }
 }
