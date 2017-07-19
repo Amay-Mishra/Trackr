@@ -7,7 +7,7 @@ public class AppConfig {
     //server user login url
     public static String LOGIN_URL= "http://trackr.trackr.hasura.me/login";
 
-    public static String ACCOUNT_INFO_URL= "http://192.168.1.11:8080/user/account/info";
+    public static String ACCOUNT_INFO_URL= "http://trackr.trackr.hasura.me/user-info";
 
     public static String ONLINE_URL= "http://192.168.1.11/get-list2-online.php";
 

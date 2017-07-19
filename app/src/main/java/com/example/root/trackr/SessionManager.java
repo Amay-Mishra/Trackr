@@ -27,7 +27,7 @@ public class SessionManager {
     int PRIVATE_MODE = 0;
 
     //SharedPreferences filename
-    private static final String PREF_NAME = "TrackrLogin";
+    private static final String PREF_NAME = "ProfileInformation";
 
     SessionManager(Context context, User user) {
         this.context = context;

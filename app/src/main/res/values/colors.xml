@@ -31,8 +31,9 @@
     <color name="powerMode">#dddddd</color>
     <color name="powerModeHeader">#1e1d1f</color>
 
-    <color name="subHeader">#1e1d1f</color>
 
+    <color name="subHeader">#369e54</color>
     <color name="permissionManagerBg">#dddddd</color>
+    <color name="profileHeader">#181b17</color>
 
 </resources>

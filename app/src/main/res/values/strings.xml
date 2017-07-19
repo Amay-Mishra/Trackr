@@ -40,4 +40,9 @@
 
     <string name="permission_manager_menu_option">Permission Manager</string>
     <string name="logout_menu_option">Logout</string>
+
+    <string name="profile_welcome_message">Welcome</string>
+    <string name="profile_name_header">Name:</string>
+    <string name="profile_id_header">Id: </string>
+    <string name="profile_phone_header">Phone: </string>
 </resources>

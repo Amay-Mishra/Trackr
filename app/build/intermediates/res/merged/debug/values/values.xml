@@ -176,6 +176,7 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="profileHeader">#181b17</color>
     <color name="regBg">#1e1d1f</color>
     <color name="regBut">#369e54</color>
     <color name="regLink">#00369e54</color>
@@ -186,7 +187,7 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
-    <color name="subHeader">#1e1d1f</color>
+    <color name="subHeader">#369e54</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
@@ -725,6 +726,10 @@
     <string name="phone">Phone</string>
     <string name="power_mode">Power Mode</string>
     <string name="power_saver">Power Saver</string>
+    <string name="profile_id_header">Id: </string>
+    <string name="profile_name_header">Name:</string>
+    <string name="profile_phone_header">Phone: </string>
+    <string name="profile_welcome_message">Welcome</string>
     <string name="psw">Password</string>
     <string name="reg">Create Account</string>
     <string name="regLink">New User? Create Account.</string>

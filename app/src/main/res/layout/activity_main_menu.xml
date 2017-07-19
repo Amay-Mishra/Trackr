@@ -23,8 +23,8 @@
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:layout_margin="5dp"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:weightSum="1">
 
             <Switch
@@ -33,6 +33,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="23dp"
                 android:text="@string/enable_tracking"
+                android:textColor="@color/subHeader"
                 android:textSize="24sp"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentStart="true" />
@@ -141,7 +142,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:background="@color/navViewBg"
-
+        android:id="@+id/navigationView"
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
         app:headerLayout="@layout/layout_header"
         app:menu="@menu/navigation_menu" />

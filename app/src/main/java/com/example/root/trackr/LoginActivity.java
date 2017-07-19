@@ -136,6 +136,7 @@ public class LoginActivity extends AppCompatActivity {
                             try {
                                 auth_token = responseUser.getAuthToken();
                                 id = responseUser.getId();
+                                Log.d("RESPONSE", auth_token + "\t" + id);
                                 if (!(auth_token == null) && !(id == 0)) {
                                     progressDialog.setIndeterminate(true);
                                     progressDialog.setMessage("Authenticating...");
@@ -144,7 +145,7 @@ public class LoginActivity extends AppCompatActivity {
                                             new Runnable() {
                                                 @Override
                                                 public void run() {
-//                                                    onLoginSuccess();
+                                                    onLoginSuccess();
                                                     progressDialog.dismiss();
                                                 }
                                             },
@@ -195,9 +196,8 @@ public class LoginActivity extends AppCompatActivity {
 
     public void onLoginSuccess() {
         //authentication logic.
-        checkLoginStatus();
 
-        User requestUser = new User(null, null, id, null, null, auth_token);
+        User requestUser = new User(null, null, 0, null, null, auth_token);
         Gson gson = new Gson();
         String postUser = gson.toJson(requestUser, User.class);
 
@@ -210,8 +210,10 @@ public class LoginActivity extends AppCompatActivity {
                     public void onResponse(JSONObject jsonObject) {
                         Gson gson = new Gson();
                         User responseUser = gson.fromJson(jsonObject.toString(), User.class);
+                        Log.d("RESPONSE", jsonObject.toString());
                         session = new SessionManager(LoginActivity.this, responseUser);
                         session.setLogin();
+                        checkLoginStatus();
                     }
                 },
                 new Response.ErrorListener() {
@@ -232,6 +234,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         };
         MySingleton.getInstance(LoginActivity.this).addToRequestQueue(jsonObjectRequest);
+
     }
 
     public void onLoginFailed() {
