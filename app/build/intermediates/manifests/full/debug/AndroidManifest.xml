@@ -59,6 +59,16 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.root.trackr.PermissionManagerActivity"
+            android:theme="@style/PermissionManagerTheme"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="com.example.root.trackr.PermissionManagerActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

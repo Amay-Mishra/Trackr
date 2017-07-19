@@ -31,6 +31,13 @@
     <string name="tracking_disabled">Tracking is currently disabled.</string>
     <string name="sub_header">Online Friends</string>
 
+    <string name="friend_list_sub_header">Friend List</string>
+    <string name="search_friend_sub_header">Enter name to search</string>
+    <string name="search_friend_button">Search</string>
+
     <string name="selected_friend_init_msg">No friends selected yet. Click on friend to select.</string>
     <string name="selected_friend">Selected Friend: </string>
+
+    <string name="permission_manager_menu_option">Permission Manager</string>
+    <string name="logout_menu_option">Logout</string>
 </resources>

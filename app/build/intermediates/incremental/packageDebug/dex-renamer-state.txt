@@ -1,4 +1,4 @@
-#Thu Jul 13 16:40:29 IST 2017
+#Wed Jul 19 05:44:35 IST 2017
 base.0=/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/root/StudioProjects/Trackr/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

@@ -33,4 +33,6 @@
 
     <color name="subHeader">#1e1d1f</color>
 
+    <color name="permissionManagerBg">#dddddd</color>
+
 </resources>

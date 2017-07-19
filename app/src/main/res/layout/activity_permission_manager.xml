@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.trackr.PermissionManagerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:weightSum="1">
+
+        <include
+            layout="@layout/navigation_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textViewFriendListSubHeader"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="11dp"
+                android:text="@string/friend_list_sub_header"
+                android:textColor="@color/subHeader"
+                android:textSize="24sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <ListView
+                android:id="@+id/listViewFriendList"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@color/listViewBg"
+                android:scrollbars="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/textViewFriendListSubHeader"
+                android:layout_alignParentStart="true" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/searchFriendWrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/listViewFriendList"
+                android:layout_alignParentStart="true">
+
+                <EditText
+                    android:id="@+id/editTextSearchFriend"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:textSize="20sp"
+                    android:textColor="@color/subHeader"
+                    android:inputType="textPersonName"
+
+                    android:hint="@string/search_friend_sub_header"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="17dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/buttonSearchFriend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/search_friend_button"
+                android:background="@color/trackFriendLink"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/searchFriendWrapper"
+                android:layout_alignParentStart="true" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/listViewSearchFriend"
+                android:background="@color/listViewBg"
+                android:scrollbars="vertical"
+                android:layout_below="@+id/buttonSearchFriend"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="11dp" />
+
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/navViewBg"
+
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:headerLayout="@layout/layout_header"
+        app:menu="@menu/navigation_menu" />
+    <!--<ListView-->
+    <!--android:id="@+id/navList"-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--app:menu="@menu/navigation_menu"-->
+    <!--android:layout_gravity="start"-->
+    <!--android:background="@color/listViewBg" />-->
+
+</android.support.v4.widget.DrawerLayout>

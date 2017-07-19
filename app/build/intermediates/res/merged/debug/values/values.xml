@@ -164,6 +164,7 @@
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
     <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="permissionManagerBg">#dddddd</color>
     <color name="permissionManagerLink">#369e54</color>
     <color name="powerMode">#dddddd</color>
     <color name="powerModeHeader">#1e1d1f</color>
@@ -704,9 +705,11 @@
     <string name="email">Email</string>
     <string name="enable_tracking">Enable Tracking </string>
     <string name="fname">First Name</string>
+    <string name="friend_list_sub_header">Friend List</string>
     <string name="lname">Last Name</string>
     <string name="login">Login</string>
     <string name="loginLink">Already a member? Login.</string>
+    <string name="logout_menu_option">Logout</string>
     <string name="nav_menu1">Profile</string>
     <string name="nav_menu2">Settings</string>
     <string name="nav_menu3">Logout</string>
@@ -718,12 +721,15 @@
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="permission_manager_link">Permission Manager</string>
+    <string name="permission_manager_menu_option">Permission Manager</string>
     <string name="phone">Phone</string>
     <string name="power_mode">Power Mode</string>
     <string name="power_saver">Power Saver</string>
     <string name="psw">Password</string>
     <string name="reg">Create Account</string>
     <string name="regLink">New User? Create Account.</string>
+    <string name="search_friend_button">Search</string>
+    <string name="search_friend_sub_header">Enter name to search</string>
     <string name="search_menu_title">Search</string>
     <string name="selected_friend">Selected Friend: </string>
     <string name="selected_friend_init_msg">No friends selected yet. Click on friend to select.</string>
@@ -1768,6 +1774,9 @@
         
     </style>
     <style name="MainMenuTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+    <style name="PermissionManagerTheme" parent="Theme.AppCompat.Light.NoActionBar">
 
     </style>
     <style name="Platform.AppCompat" parent="android:Theme">

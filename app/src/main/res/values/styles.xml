@@ -13,4 +13,8 @@
 
     </style>
 
+    <style name="PermissionManagerTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
 </resources>

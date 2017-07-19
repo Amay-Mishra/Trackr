@@ -8,6 +8,10 @@
         "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_menu_item_action_area.xml"
     },
     {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/activity_permission_manager.xml",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/layout/activity_permission_manager.xml"
+    },
+    {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
@@ -74,6 +78,10 @@
     {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/list_search_friend.xml",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/layout/list_search_friend.xml"
     },
     {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
@@ -144,6 +152,10 @@
         "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_layout_tab_icon.xml"
     },
     {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/list_friend_list.xml",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/layout/list_friend_list.xml"
+    },
+    {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/select_dialog_multichoice_material.xml"
     },
@@ -160,12 +172,12 @@
         "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_layout_tab_text.xml"
     },
     {
-        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_alert_dialog_title_material.xml"
-    },
-    {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/list_online_friends.xml",
         "source": "/root/StudioProjects/Trackr/app/src/main/res/layout/list_online_friends.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
