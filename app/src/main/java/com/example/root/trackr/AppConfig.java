@@ -5,7 +5,7 @@ package com.example.root.trackr;
  */
 public class AppConfig {
     //server user login url
-    public static String LOGIN_URL= "http://192.168.1.11:8080/login";
+    public static String LOGIN_URL= "http://trackr.trackr.hasura.me/login";
 
     public static String ACCOUNT_INFO_URL= "http://192.168.1.11:8080/user/account/info";
 

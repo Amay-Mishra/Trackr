@@ -9,8 +9,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import com.android.volley.AuthFailureError;
+import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
 import com.android.volley.Response;
+import com.android.volley.RetryPolicy;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.google.gson.Gson;
@@ -87,7 +89,7 @@ public class RegisterActivity extends AppCompatActivity {
         psw = editText_psw.getText().toString();
         Log.d("STATUS", fname + " " + lname + " " + phone + " " + psw + " ");
 
-        final User requestUser = new User(phone, psw, 0, lname, fname, auth_token);
+        User requestUser = new User(phone, psw, 0, fname, lname, auth_token);
         Gson gson = new Gson();
         String postUser = gson.toJson(requestUser, User.class);
 
@@ -150,6 +152,9 @@ public class RegisterActivity extends AppCompatActivity {
                 return headers;
             }
         };
+        int socketTimeout = 10000;//10 seconds - change to what you want
+        RetryPolicy policy = new DefaultRetryPolicy(socketTimeout, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
+        jsonObjectRequest.setRetryPolicy(policy);
         MySingleton.getInstance(RegisterActivity.this).addToRequestQueue(jsonObjectRequest);
     }
         //Registration logic.

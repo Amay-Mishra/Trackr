@@ -10,8 +10,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import com.android.volley.AuthFailureError;
+import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
 import com.android.volley.Response;
+import com.android.volley.RetryPolicy;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.google.gson.Gson;
@@ -26,7 +28,8 @@ public class LoginActivity extends AppCompatActivity {
     private Button button_regLink;
     private Button button_login;
     private EditText editText_phone, editText_psw;
-    private String phone, psw, auth_token, id, fname, lname, code, message;
+    private String phone, psw, auth_token, fname, lname, code, message;
+    private int id;
     private static final int REQUEST_REGISTER= 0;
     private ProgressDialog progressDialog;
     private SessionManager session;
@@ -112,7 +115,7 @@ public class LoginActivity extends AppCompatActivity {
         phone= editText_phone.getText().toString();
         psw= editText_psw.getText().toString();
 
-        final User requestUser = new User(null, null, 0, null, null, null);
+        User requestUser = new User(phone, psw, 0, null, null, null);
         Gson gson = new Gson();
         String postUser = gson.toJson(requestUser, User.class);
 
@@ -132,7 +135,8 @@ public class LoginActivity extends AppCompatActivity {
 
                             try {
                                 auth_token = responseUser.getAuthToken();
-                                if (!(auth_token == null)) {
+                                id = responseUser.getId();
+                                if (!(auth_token == null) && !(id == 0)) {
                                     progressDialog.setIndeterminate(true);
                                     progressDialog.setMessage("Authenticating...");
                                     progressDialog.show();
@@ -140,7 +144,7 @@ public class LoginActivity extends AppCompatActivity {
                                             new Runnable() {
                                                 @Override
                                                 public void run() {
-                                                    onLoginSuccess();
+//                                                    onLoginSuccess();
                                                     progressDialog.dismiss();
                                                 }
                                             },
@@ -177,6 +181,10 @@ public class LoginActivity extends AppCompatActivity {
                 return headers;
             }
         };
+
+        int socketTimeout = 10000;//10 seconds - change to what you want
+        RetryPolicy policy = new DefaultRetryPolicy(socketTimeout, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
+        jsonObjectRequest.setRetryPolicy(policy);
         MySingleton.getInstance(LoginActivity.this).addToRequestQueue(jsonObjectRequest);
     }
 
@@ -188,9 +196,15 @@ public class LoginActivity extends AppCompatActivity {
     public void onLoginSuccess() {
         //authentication logic.
         checkLoginStatus();
+
+        User requestUser = new User(null, null, id, null, null, auth_token);
+        Gson gson = new Gson();
+        String postUser = gson.toJson(requestUser, User.class);
+
         JsonObjectRequest jsonObjectRequest= new JsonObjectRequest(
-                Request.Method.GET,
+                Request.Method.POST,
                 account_info_url,
+                postUser,
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject jsonObject) {
@@ -212,7 +226,8 @@ public class LoginActivity extends AppCompatActivity {
             public Map<String, String> getHeaders() throws AuthFailureError {
                 super.getHeaders();
                 HashMap<String, String> headers = new HashMap<String, String>();
-                headers.put("Authorization", "Bearer "+ auth_token);
+                headers.put("Content-Type", "application/json");
+                headers.put("charset", "utf-8");
                 return headers;
             }
         };
