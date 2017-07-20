@@ -23,9 +23,20 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonArrayRequest;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.google.gson.Gson;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class MainMenuActivity extends AppCompatActivity{
 
@@ -39,11 +50,14 @@ public class MainMenuActivity extends AppCompatActivity{
     private TextView textView_profile_name;
     private TextView textView_profile_id;
     private TextView textView_profile_phone;
+    private SessionManager session;
     private Switch switch_enable_tracking;
+    private final String online_friends_url= AppConfig.ONLINE_FRIENDS_URL;
     private ListView listView_online_friends;
     private SharedPreferences sharedPreferencesProfileInformation;
     ArrayList<OnlineFriend> onlineFriends;
     private static OnlineFriendListAdapter onlineFriendListAdapter;
+    private User currentUser;
     //inflater
     LayoutInflater inflater;
 
@@ -98,16 +112,59 @@ public class MainMenuActivity extends AppCompatActivity{
 
     public void loadListView() {
         onlineFriends = new ArrayList<>();
+        Gson gson = new Gson();
+        String postUser = gson.toJson(currentUser, User.class);
+        Log.d("JSON REQUEST", postUser);
+        JsonArrayRequest jsonArrayRequest= new JsonArrayRequest(
+                Request.Method.POST,
+                online_friends_url,
+                postUser,
+                new Response.Listener<JSONArray>() {
+                    @Override
+                    public void onResponse(JSONArray jsonArray) {
+                        try {
+                            Gson gson = new Gson();
+                            OnlineFriend onlineFriend;
+                            for(int i= 0; i < jsonArray.length(); i++) {
+                                Log.d("JSON RESPONSE", jsonArray.getJSONObject(i).toString());
+                                onlineFriend = gson.fromJson(jsonArray.getJSONObject(i).toString(), OnlineFriend.class);
+                                onlineFriends.add(onlineFriend);
+                            }
+                            onlineFriendListAdapter = new OnlineFriendListAdapter(MainMenuActivity.this, onlineFriends);
+                            listView_online_friends.setAdapter(onlineFriendListAdapter);
 
-        onlineFriends.add(new OnlineFriend(1, "Debargha"));
-        onlineFriends.add(new OnlineFriend(2, "Debojit"));
-        onlineFriends.add(new OnlineFriend(3, "Amay"));
-        onlineFriends.add(new OnlineFriend(4, "Hariom"));
-        onlineFriends.add(new OnlineFriend(5, "Jagdish"));
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
 
-        onlineFriendListAdapter = new OnlineFriendListAdapter(MainMenuActivity.this, onlineFriends);
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Message.message(MainMenuActivity.this, "Error...");
+                        error.printStackTrace();
+                    }
+                }
+        ){
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                super.getHeaders();
+                HashMap<String, String> headers = new HashMap<String, String>();
+                headers.put("Content-Type", "application/json");
+                headers.put("charset", "utf-8");
+                return headers;
+            }
+        };
+        MySingleton.getInstance(MainMenuActivity.this).addToRequestQueue(jsonArrayRequest);
 
-        listView_online_friends.setAdapter(onlineFriendListAdapter);
+
+//        onlineFriends.add(new OnlineFriend(2, "Debojit"));
+//        onlineFriends.add(new OnlineFriend(3, "Amay"));
+//        onlineFriends.add(new OnlineFriend(4, "Hariom"));
+//        onlineFriends.add(new OnlineFriend(5, "Jagdish"));
+
+
     }
 
     public void loadProfileInformation() {
@@ -126,7 +183,7 @@ public class MainMenuActivity extends AppCompatActivity{
 
         Gson gson = new Gson();
         String json = sharedPreferencesProfileInformation.getString("currentUser", "");
-        User currentUser = gson.fromJson(json, User.class);
+        currentUser = gson.fromJson(json, User.class);
 
         textView_profile_id.setText(String.valueOf(currentUser.getId()));
         textView_profile_name.setText(currentUser.getFname() + " " + currentUser.getLname());

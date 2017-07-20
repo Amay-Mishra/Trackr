@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jul 20 18:13:53 IST 2017
+#Thu Jul 20 19:11:14 IST 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/root/StudioProjects/Trackr/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_color_highlight_material.xml
