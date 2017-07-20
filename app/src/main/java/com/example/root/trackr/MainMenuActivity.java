@@ -25,6 +25,8 @@ import android.widget.Toast;
 
 import com.google.gson.Gson;
 
+import java.util.ArrayList;
+
 public class MainMenuActivity extends AppCompatActivity{
 
     private ListView mDrawerList;
@@ -40,6 +42,8 @@ public class MainMenuActivity extends AppCompatActivity{
     private Switch switch_enable_tracking;
     private ListView listView_online_friends;
     private SharedPreferences sharedPreferencesProfileInformation;
+    ArrayList<OnlineFriend> onlineFriends;
+    private static OnlineFriendListAdapter onlineFriendListAdapter;
     //inflater
     LayoutInflater inflater;
 
@@ -61,7 +65,7 @@ public class MainMenuActivity extends AppCompatActivity{
         initialize();
 
 
-
+        loadListView();
 
         addListenerForActionBar();
 
@@ -85,11 +89,25 @@ public class MainMenuActivity extends AppCompatActivity{
 
         switch_enable_tracking = (Switch) findViewById(R.id.switchEnableTracking);
 
-        ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.list_online_friends, onlineFriendsArray);
+//        ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.list_online_friends, onlineFriendsArray);
         listView_online_friends = (ListView) findViewById(R.id.listViewOnlineFriends);
-        listView_online_friends.setAdapter(adapter);
+//        listView_online_friends.setAdapter(adapter);
 
         loadProfileInformation();
+    }
+
+    public void loadListView() {
+        onlineFriends = new ArrayList<>();
+
+        onlineFriends.add(new OnlineFriend(1, "Debargha"));
+        onlineFriends.add(new OnlineFriend(2, "Debojit"));
+        onlineFriends.add(new OnlineFriend(3, "Amay"));
+        onlineFriends.add(new OnlineFriend(4, "Hariom"));
+        onlineFriends.add(new OnlineFriend(5, "Jagdish"));
+
+        onlineFriendListAdapter = new OnlineFriendListAdapter(MainMenuActivity.this, onlineFriends);
+
+        listView_online_friends.setAdapter(onlineFriendListAdapter);
     }
 
     public void loadProfileInformation() {
@@ -123,7 +141,6 @@ public class MainMenuActivity extends AppCompatActivity{
                         String trackingStatus;
                         if (isChecked) {
                             trackingStatus = getResources().getString(R.string.tracking_enabled);
-
                         }
                         else{
                             trackingStatus = getResources().getString(R.string.tracking_disabled);
@@ -147,7 +164,8 @@ public class MainMenuActivity extends AppCompatActivity{
                 new AdapterView.OnItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                        String item = getString(R.string.selected_friend) + " " + (String) parent.getItemAtPosition(position);
+                        OnlineFriend onlineFriend = onlineFriends.get(position);
+                        String item = getString(R.string.selected_friend) + " " + onlineFriend.getName() + "\nID: " + onlineFriend.getId();
                         textView_selected_friend.setText(item);
                     }
                 }
