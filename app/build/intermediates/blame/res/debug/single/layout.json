@@ -28,16 +28,16 @@
         "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_text_input_password_icon.xml"
     },
     {
-        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_menu_layout.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_bar_up_container.xml"
     },
     {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_bar_up_container.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
@@ -60,12 +60,12 @@
         "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_bottom_navigation_item.xml"
     },
     {
-        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
-        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_menu.xml"
-    },
-    {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_menu.xml"
     },
     {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/activity_register.xml",

@@ -700,9 +700,11 @@
     <string name="app_name">Trackr</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="change_permission_status">Change </string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="close">Close</string>
     <string name="cnfpsw">Confirm password</string>
+    <string name="default_permission_status">Denied </string>
     <string name="email">Email</string>
     <string name="enable_tracking">Enable Tracking </string>
     <string name="fname">First Name</string>
@@ -736,8 +738,10 @@
     <string name="search_friend_button">Search</string>
     <string name="search_friend_sub_header">Enter name to search</string>
     <string name="search_menu_title">Search</string>
+    <string name="selected">Selected </string>
     <string name="selected_friend">Selected Friend: </string>
     <string name="selected_friend_init_msg">No friends selected yet. Click on friend to select.</string>
+    <string name="selected_friend_permission">Selected Friend: </string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sub_header">Online Friends</string>
     <string name="track_friend_link">Track</string>
