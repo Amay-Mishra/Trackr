@@ -35,7 +35,7 @@
     <string name="default_permission_status">Denied </string>
 
     <string name="friend_list_sub_header">Friend List</string>
-    <string name="search_friend_sub_header">Enter name to search</string>
+    <string name="search_friend_sub_header">Enter phone number to search</string>
     <string name="search_friend_button">Search</string>
 
     <string name="selected_friend_init_msg">No friends selected yet. Click on friend to select.</string>

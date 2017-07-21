@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/textViewSearchFriend"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/textViewSearchFriendName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
         android:padding="10dp"
-        android:textSize="16sp" />
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewSearchFriendId"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:layout_alignBaseline="@+id/textViewSearchFriendName"
+        android:layout_alignBottom="@+id/textViewSearchFriendName"
+        android:layout_alignParentEnd="true" />
+
+
+
+</RelativeLayout>

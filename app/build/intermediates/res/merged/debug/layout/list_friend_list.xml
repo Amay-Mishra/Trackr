@@ -17,11 +17,11 @@
         android:id="@+id/textViewFriendListId"
         android:layout_width="40dp"
         android:layout_height="wrap_content"
-        android:padding="10dp"
+        android:padding="5dp"
         android:textSize="14sp"
-        android:layout_marginStart="13dp"
         android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/textViewFriendListName" />
+        android:layout_toEndOf="@+id/textViewFriendListName"
+        android:layout_marginStart="11dp" />
 
     <TextView
         android:id="@+id/textViewPermissionStatus"

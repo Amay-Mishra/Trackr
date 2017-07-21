@@ -24,8 +24,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
+import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
 import com.android.volley.Response;
+import com.android.volley.RetryPolicy;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
@@ -125,6 +127,7 @@ public class MainMenuActivity extends AppCompatActivity{
                         try {
                             Gson gson = new Gson();
                             OnlineFriend onlineFriend;
+                            Log.d("JSON RESPONSE", jsonArray.toString());
                             for(int i= 0; i < jsonArray.length(); i++) {
                                 Log.d("JSON RESPONSE", jsonArray.getJSONObject(i).toString());
                                 onlineFriend = gson.fromJson(jsonArray.getJSONObject(i).toString(), OnlineFriend.class);
@@ -142,7 +145,7 @@ public class MainMenuActivity extends AppCompatActivity{
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Message.message(MainMenuActivity.this, "Error...");
+                        Message.message(MainMenuActivity.this, "Can't fetch online friends, try again later.");
                         error.printStackTrace();
                     }
                 }
@@ -156,6 +159,9 @@ public class MainMenuActivity extends AppCompatActivity{
                 return headers;
             }
         };
+        int socketTimeout = 10000;//10 seconds - change to what you want
+        RetryPolicy policy = new DefaultRetryPolicy(socketTimeout, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
+        jsonArrayRequest.setRetryPolicy(policy);
         MySingleton.getInstance(MainMenuActivity.this).addToRequestQueue(jsonArrayRequest);
 
 

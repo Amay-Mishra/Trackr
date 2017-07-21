@@ -2,6 +2,7 @@ package com.example.root.trackr;
 
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.support.annotation.Nullable;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -14,7 +15,7 @@ public class FriendList implements Parcelable {
     @SerializedName("id")
     private int id;
 
-    public FriendList(int id, String name, int permissionStatus) {
+    public FriendList(@Nullable int id, @Nullable String name, @Nullable int permissionStatus) {
         this.id = id;
         this.name = name;
         this.permissionStatus = permissionStatus;

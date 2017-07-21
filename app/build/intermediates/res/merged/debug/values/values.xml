@@ -736,7 +736,7 @@
     <string name="reg">Create Account</string>
     <string name="regLink">New User? Create Account.</string>
     <string name="search_friend_button">Search</string>
-    <string name="search_friend_sub_header">Enter name to search</string>
+    <string name="search_friend_sub_header">Enter phone number to search</string>
     <string name="search_menu_title">Search</string>
     <string name="selected">Selected </string>
     <string name="selected_friend">Selected Friend: </string>
