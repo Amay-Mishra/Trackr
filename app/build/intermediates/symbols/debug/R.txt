@@ -851,8 +851,9 @@ int id middle 0x7f0d0040
 int id mini 0x7f0d003e
 int id multiply 0x7f0d0027
 int id nav_action 0x7f0d00b8
-int id nav_logout 0x7f0d00d3
-int id nav_permission_manager 0x7f0d00d2
+int id nav_logout 0x7f0d00d4
+int id nav_main_menu 0x7f0d00d2
+int id nav_permission_manager 0x7f0d00d3
 int id navigationView 0x7f0d008c
 int id navigation_header_container 0x7f0d00a3
 int id never 0x7f0d0044

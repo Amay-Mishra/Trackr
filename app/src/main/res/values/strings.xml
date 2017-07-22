@@ -14,7 +14,7 @@
     <string name="loginLink">Already a member? Login.</string>
 
     <!-- Navigation menu string resource -->
-    <string name="nav_menu1">Profile</string>
+    <string name="nav_menu1">Main Menu</string>
     <string name="nav_menu2">Settings</string>
     <string name="nav_menu3">Logout</string>
 

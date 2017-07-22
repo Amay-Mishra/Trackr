@@ -1,11 +1,15 @@
 package com.example.root.trackr;
 
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.ButtonBarLayout;
 import android.support.v7.widget.Toolbar;
@@ -102,6 +106,8 @@ public class PermissionManagerActivity extends AppCompatActivity implements Comp
         addListenerForListView();
 
         addListenerForButton();
+
+        addListenerForNavigationView();
 
 //        addListenerForSwitch();
 //
@@ -321,6 +327,54 @@ public class PermissionManagerActivity extends AppCompatActivity implements Comp
         );
     }
 
+    public void addListenerForNavigationView() {
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.navigationView);
+        navigationView.setNavigationItemSelectedListener(
+                new NavigationView.OnNavigationItemSelectedListener() {
+                    @Override
+                    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                        switch(item.getItemId()) {
+                            case R.id.nav_permission_manager :
+                                Intent intent = new Intent("com.example.root.trackr.PermissionManagerActivity");
+                                startActivity(intent);
+                                break;
+                            case R.id.nav_main_menu :
+                                intent = new Intent("com.example.root.trackr.MainMenuActivity");
+                                startActivity(intent);
+                                break;
+                            case R.id.nav_logout:
+                                AlertDialog.Builder logoutAlertBuilder = new AlertDialog.Builder(PermissionManagerActivity.this);
+                                logoutAlertBuilder.setMessage("Do you want to logout and Exit?")
+                                        .setCancelable(false)
+                                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                                            @Override
+                                            public void onClick(DialogInterface dialog, int which) {
+                                                SharedPreferences.Editor editor = sharedPreferencesProfileInformation.edit();
+                                                editor.clear();
+                                                editor.commit();
+                                                finish();
+                                            }
+                                        })
+                                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                                            @Override
+                                            public void onClick(DialogInterface dialog, int which) {
+                                                dialog.cancel();
+                                            }
+                                        });
+                                AlertDialog logoutAlert = logoutAlertBuilder.create();
+                                logoutAlert.setTitle("Logout & Exit!!!");
+                                logoutAlert.show();
+                                break;
+                        }
+
+                        return false;
+                    }
+                }
+        );
+
+    }
+
     public void addListenerForButton() {
         button_change_permission_status.setOnClickListener(
                 new View.OnClickListener() {
@@ -400,7 +454,10 @@ public class PermissionManagerActivity extends AppCompatActivity implements Comp
 
 
 
-
+    public void onBackPressed() {
+        //disable going back to the MainActivity
+        moveTaskToBack(true);
+    }
 
     public void loadSearchFriendList() {
         searchFriends = new ArrayList<>();

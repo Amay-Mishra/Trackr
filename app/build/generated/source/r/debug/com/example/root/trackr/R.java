@@ -3232,8 +3232,9 @@ containing a value of this type.
         public static final int mini=0x7f0d003e;
         public static final int multiply=0x7f0d0027;
         public static final int nav_action=0x7f0d00b8;
-        public static final int nav_logout=0x7f0d00d3;
-        public static final int nav_permission_manager=0x7f0d00d2;
+        public static final int nav_logout=0x7f0d00d4;
+        public static final int nav_main_menu=0x7f0d00d2;
+        public static final int nav_permission_manager=0x7f0d00d3;
         public static final int navigationView=0x7f0d008c;
         public static final int navigation_header_container=0x7f0d00a3;
         public static final int never=0x7f0d0044;

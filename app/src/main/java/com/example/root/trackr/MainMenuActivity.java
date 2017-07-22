@@ -2,10 +2,14 @@ package com.example.root.trackr;
 
 import android.app.ListActivity;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatCallback;
@@ -89,6 +93,8 @@ public class MainMenuActivity extends AppCompatActivity{
 
         addListenerForListView();
 
+        addListenerForNavigationView();
+
 
     }
 
@@ -165,10 +171,6 @@ public class MainMenuActivity extends AppCompatActivity{
         MySingleton.getInstance(MainMenuActivity.this).addToRequestQueue(jsonArrayRequest);
 
 
-//        onlineFriends.add(new OnlineFriend(2, "Debojit"));
-//        onlineFriends.add(new OnlineFriend(3, "Amay"));
-//        onlineFriends.add(new OnlineFriend(4, "Hariom"));
-//        onlineFriends.add(new OnlineFriend(5, "Jagdish"));
 
 
     }
@@ -182,11 +184,6 @@ public class MainMenuActivity extends AppCompatActivity{
         textView_profile_name = (TextView)header.findViewById(R.id.textViewProfileName);
         textView_profile_phone= (TextView)header.findViewById(R.id.textViewProfilePhone);
 
-
-
-
-
-
         Gson gson = new Gson();
         String json = sharedPreferencesProfileInformation.getString("currentUser", "");
         currentUser = gson.fromJson(json, User.class);
@@ -196,6 +193,60 @@ public class MainMenuActivity extends AppCompatActivity{
         textView_profile_phone.setText(currentUser.getPhone());
 
     }
+
+    public void addListenerForNavigationView() {
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.navigationView);
+        navigationView.setNavigationItemSelectedListener(
+                new NavigationView.OnNavigationItemSelectedListener() {
+                    @Override
+                    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                        switch(item.getItemId()) {
+                            case R.id.nav_permission_manager :
+                                Intent intent = new Intent("com.example.root.trackr.PermissionManagerActivity");
+                                startActivity(intent);
+                                break;
+                            case R.id.nav_main_menu :
+                                intent = new Intent("com.example.root.trackr.MainMenuActivity");
+                                startActivity(intent);
+                                break;
+                            case R.id.nav_logout:
+                                AlertDialog.Builder logoutAlertBuilder = new AlertDialog.Builder(MainMenuActivity.this);
+                                logoutAlertBuilder.setMessage("Do you want to logout and Exit?")
+                                        .setCancelable(false)
+                                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                                            @Override
+                                            public void onClick(DialogInterface dialog, int which) {
+                                                SharedPreferences.Editor editor = sharedPreferencesProfileInformation.edit();
+                                                editor.clear();
+                                                editor.commit();
+                                                finish();
+                                            }
+                                        })
+                                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                                            @Override
+                                            public void onClick(DialogInterface dialog, int which) {
+                                                dialog.cancel();
+                                            }
+                                        });
+                                AlertDialog logoutAlert = logoutAlertBuilder.create();
+                                logoutAlert.setTitle("Logout & Exit!!!");
+                                logoutAlert.show();
+                                break;
+                        }
+
+                        return false;
+                    }
+                }
+        );
+
+    }
+
+    public void onBackPressed() {
+        //disable going back to the MainActivity
+        moveTaskToBack(true);
+    }
+
     public void addListenerForSwitch() {
         switch_enable_tracking.setOnCheckedChangeListener(
                 new CompoundButton.OnCheckedChangeListener() {
@@ -238,7 +289,6 @@ public class MainMenuActivity extends AppCompatActivity{
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if(mToggle.onOptionsItemSelected(item)) {
-
             return true;
         }
         return super.onOptionsItemSelected(item);

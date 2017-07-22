@@ -713,7 +713,7 @@
     <string name="login">Login</string>
     <string name="loginLink">Already a member? Login.</string>
     <string name="logout_menu_option">Logout</string>
-    <string name="nav_menu1">Profile</string>
+    <string name="nav_menu1">Main Menu</string>
     <string name="nav_menu2">Settings</string>
     <string name="nav_menu3">Logout</string>
     <string name="normal">Normal</string>
