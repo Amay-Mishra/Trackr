@@ -6,5 +6,13 @@
     {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     }
 ]

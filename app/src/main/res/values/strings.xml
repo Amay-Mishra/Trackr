@@ -51,6 +51,7 @@
     <string name="profile_name_header">Name:</string>
     <string name="profile_id_header">Id: </string>
     <string name="profile_phone_header">Phone: </string>
+    <string name="title_activity_track_friend">Map</string>
 
 
 </resources>
