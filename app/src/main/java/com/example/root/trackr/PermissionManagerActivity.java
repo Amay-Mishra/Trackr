@@ -426,7 +426,7 @@ public class PermissionManagerActivity extends AppCompatActivity implements Comp
                                 headers.put("Content-Type", "application/json");
                                 headers.put("charset", "utf-8");
                                 headers.put("user_id", userId);
-                                headers.put("auth_token", authToken);
+                                headers.put("abc", authToken);
                                 return headers;
                             }
                         };
