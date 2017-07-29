@@ -2,6 +2,7 @@ package com.example.root.trackr;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.location.Location;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
@@ -35,11 +36,14 @@ public class TrackFriend extends FragmentActivity implements OnMapReadyCallback 
     private GoogleMap mMap;
     Location globalLocation;
     private User currentUser;
+    Bundle extras;
     private SharedPreferences sharedPreferencesProfileInformation;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        extras = getIntent().getExtras();
+            Log.d("---------------------", String.valueOf(extras.getInt("id")));
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_track_friend);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
@@ -103,7 +107,7 @@ public class TrackFriend extends FragmentActivity implements OnMapReadyCallback 
 
 
 
-        User requestUser = new User("0", "0", currentUser.getId(), "0", "0", currentUser.getAuthToken());
+        User requestUser = new User("0", "0", extras.getInt("id"), "0", "0", currentUser.getAuthToken());
         String postUser = gson.toJson(requestUser, User.class);
 
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
@@ -115,24 +119,25 @@ public class TrackFriend extends FragmentActivity implements OnMapReadyCallback 
                     @Override
                     public void onResponse(JSONObject jsonObject) {
                         try {
+                            Log.d("TAG", "onResponse: ----------------------");
                             Log.d("RESPONSE", jsonObject.toString());
-                            location.setLatitude(jsonObject.getString("latitude"));
-                            location.setLongitude(jsonObject.getString("longitude"));
+                            location.setLatitude(Double.parseDouble(jsonObject.getString("latitude")));
+                            location.setLongitude(Double.parseDouble(jsonObject.getString("longitude")));
 //                            Gson gson = new Gson();
 //                            User responseUser = gson.fromJson(jsonObject.toString(), User.class);
                             try {
-                                if((location.getLatitude() != null)&&(location.getLongitude() != null)) {
                                     globalLocation.setLatitude(location.getLatitude());
                                     globalLocation.setLongitude(location.getLongitude());
                                     displayLocation();
-                                }
-                                else {
+
+                                 {
                                     Toast.makeText(TrackFriend.this, "User has gone offline...", Toast.LENGTH_SHORT).show();
                                     goneOffline();
                                 }
 
                             } catch (NullPointerException ne) {
                                 ne.printStackTrace();
+                            Toast.makeText(TrackFriend.this, "unable to fetch location from database", Toast.LENGTH_SHORT).show();
                             }
 
                         } catch (Exception e) {
@@ -165,12 +170,12 @@ public class TrackFriend extends FragmentActivity implements OnMapReadyCallback 
     }
 
     private void goneOffline(){
-        //finish activity
+        //TODO finish activity
     }
 
     private void displayLocation(){
         mMap.clear();
-        LatLng latLng = new LatLng(Double.parseDouble(globalLocation.getLatitude()),Double.parseDouble(globalLocation.getLongitude()));
+        LatLng latLng = new LatLng(globalLocation.getLatitude(),globalLocation.getLongitude());
         mMap.addMarker(new MarkerOptions().position(latLng).title("Your friend is here"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
     }

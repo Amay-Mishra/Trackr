@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:2:1-86:12
+ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:2:1-92:12
 	package
 		ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml
@@ -15,7 +15,7 @@ ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml
 		INJECTED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:5:5-67
-MERGED from [com.google.android.gms:play-services-maps:11.0.2] /root/.android/build-cache/722ff8fecfd2cd76238a1b167f184cc15750f2a1/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /root/.android/build-cache/602bc301fb2d47d96f101fea136c8c4d48b95b78/output/AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
@@ -23,17 +23,17 @@ ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml
 	android:name
 		ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:12:22-76
 application
-ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:14:5-84:19
+ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:14:5-90:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /root/.android/build-cache/3fdcc039fe22ce78096f3dc654af72206edb014c/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] /root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] /root/.android/build-cache/5ae3cd56ab9315f447fa8e9fed28a3ca6a795dd8/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /root/.android/build-cache/31662848a371d9980efa5d6f7a7f6ddd25bc4731/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /root/.android/build-cache/ab8405642e254ba9c9a861360e7d9eeed9cabc5a/output/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-maps:11.0.2] /root/.android/build-cache/722ff8fecfd2cd76238a1b167f184cc15750f2a1/output/AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-base:11.0.2] /root/.android/build-cache/b0a779820f6f623934104a7d31df3c7d364d5cb5/output/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.2] /root/.android/build-cache/871a2a79f44f929f17b6d737e2cddf7b3e41632c/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.2] /root/.android/build-cache/490e73c90b4645d892dcaaf409f5407273e3c881/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /root/.android/build-cache/602bc301fb2d47d96f101fea136c8c4d48b95b78/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /root/.android/build-cache/daf1de0093e65531e36a68172ddc3d610d8b75a0/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /root/.android/build-cache/838c7e9acfa0c159d8891269705c36d23964ff6c/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /root/.android/build-cache/8317b189232ac7403a7d5f273f46dd40dab86c18/output/AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:25.3.1] /root/.android/build-cache/414b42877191094309f799516d3361a20f65d132/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /root/.android/build-cache/ad16df9bfc1be1fab0523af5750abbf06aaa60d4/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] /root/.android/build-cache/10b9db9169001120c32f0d95f0afde5bfa527753/output/AndroidManifest.xml:29:5-20
@@ -126,18 +126,24 @@ action#com.example.root.trackr.PermissionManagerActivity
 ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:64:17-92
 	android:name
 		ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:64:25-89
-meta-data#com.google.android.geo.API_KEY
+meta-data#com.google.android.maps.v2.API_KEY
 ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:77:9-79:55
 	android:value
 		ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:79:13-52
 	android:name
-		ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:78:13-58
+		ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:78:13-62
 activity#com.example.root.trackr.TrackFriend
-ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:81:9-83:76
+ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:80:9-89:20
 	android:label
-		ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:83:13-64
+		ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:82:13-64
 	android:name
-		ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:82:13-40
+		ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:81:13-40
+intent-filter#android.intent.category.DEFAULT+com.example.root.trackr.TrackFriend
+ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:84:13-88:29
+action#com.example.root.trackr.TrackFriend
+ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:85:17-78
+	android:name
+		ADDED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml:85:25-75
 uses-sdk
 INJECTED from /root/Android Studio Projects/Trackr/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /root/.android/build-cache/3fdcc039fe22ce78096f3dc654af72206edb014c/output/AndroidManifest.xml:5:5-7:41
@@ -147,10 +153,10 @@ MERGED from [com.android.support:transition:25.3.1] /root/.android/build-cache/5
 MERGED from [com.android.support:appcompat-v7:25.3.1] /root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /root/.android/build-cache/31662848a371d9980efa5d6f7a7f6ddd25bc4731/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /root/.android/build-cache/ab8405642e254ba9c9a861360e7d9eeed9cabc5a/output/AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:11.0.2] /root/.android/build-cache/722ff8fecfd2cd76238a1b167f184cc15750f2a1/output/AndroidManifest.xml:23:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.2] /root/.android/build-cache/b0a779820f6f623934104a7d31df3c7d364d5cb5/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.2] /root/.android/build-cache/871a2a79f44f929f17b6d737e2cddf7b3e41632c/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.2] /root/.android/build-cache/490e73c90b4645d892dcaaf409f5407273e3c881/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /root/.android/build-cache/602bc301fb2d47d96f101fea136c8c4d48b95b78/output/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /root/.android/build-cache/daf1de0093e65531e36a68172ddc3d610d8b75a0/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /root/.android/build-cache/838c7e9acfa0c159d8891269705c36d23964ff6c/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /root/.android/build-cache/8317b189232ac7403a7d5f273f46dd40dab86c18/output/AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:support-v4:25.3.1] /root/.android/build-cache/414b42877191094309f799516d3361a20f65d132/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] /root/.android/build-cache/ad16df9bfc1be1fab0523af5750abbf06aaa60d4/output/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] /root/.android/build-cache/10b9db9169001120c32f0d95f0afde5bfa527753/output/AndroidManifest.xml:21:5-23:63
@@ -183,26 +189,26 @@ MERGED from [com.android.support:support-compat:25.3.1] /root/.android/build-cac
 	android:name
 		ADDED from [com.android.support:design:25.3.1] /root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/AndroidManifest.xml:26:9-47
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:11.0.2] /root/.android/build-cache/722ff8fecfd2cd76238a1b167f184cc15750f2a1/output/AndroidManifest.xml:19:5-78
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] /root/.android/build-cache/602bc301fb2d47d96f101fea136c8c4d48b95b78/output/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:11.0.2] /root/.android/build-cache/722ff8fecfd2cd76238a1b167f184cc15750f2a1/output/AndroidManifest.xml:19:22-76
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] /root/.android/build-cache/602bc301fb2d47d96f101fea136c8c4d48b95b78/output/AndroidManifest.xml:19:22-76
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:11.0.2] /root/.android/build-cache/722ff8fecfd2cd76238a1b167f184cc15750f2a1/output/AndroidManifest.xml:21:5-77
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] /root/.android/build-cache/602bc301fb2d47d96f101fea136c8c4d48b95b78/output/AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:11.0.2] /root/.android/build-cache/722ff8fecfd2cd76238a1b167f184cc15750f2a1/output/AndroidManifest.xml:21:19-51
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] /root/.android/build-cache/602bc301fb2d47d96f101fea136c8c4d48b95b78/output/AndroidManifest.xml:21:19-51
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:11.0.2] /root/.android/build-cache/722ff8fecfd2cd76238a1b167f184cc15750f2a1/output/AndroidManifest.xml:21:52-75
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] /root/.android/build-cache/602bc301fb2d47d96f101fea136c8c4d48b95b78/output/AndroidManifest.xml:21:52-75
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.0.2] /root/.android/build-cache/b0a779820f6f623934104a7d31df3c7d364d5cb5/output/AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:11.0.4] /root/.android/build-cache/daf1de0093e65531e36a68172ddc3d610d8b75a0/output/AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.0.2] /root/.android/build-cache/b0a779820f6f623934104a7d31df3c7d364d5cb5/output/AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /root/.android/build-cache/daf1de0093e65531e36a68172ddc3d610d8b75a0/output/AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.0.2] /root/.android/build-cache/b0a779820f6f623934104a7d31df3c7d364d5cb5/output/AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /root/.android/build-cache/daf1de0093e65531e36a68172ddc3d610d8b75a0/output/AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.0.2] /root/.android/build-cache/b0a779820f6f623934104a7d31df3c7d364d5cb5/output/AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /root/.android/build-cache/daf1de0093e65531e36a68172ddc3d610d8b75a0/output/AndroidManifest.xml:19:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.0.2] /root/.android/build-cache/490e73c90b4645d892dcaaf409f5407273e3c881/output/AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] /root/.android/build-cache/8317b189232ac7403a7d5f273f46dd40dab86c18/output/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.0.2] /root/.android/build-cache/490e73c90b4645d892dcaaf409f5407273e3c881/output/AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /root/.android/build-cache/8317b189232ac7403a7d5f273f46dd40dab86c18/output/AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.0.2] /root/.android/build-cache/490e73c90b4645d892dcaaf409f5407273e3c881/output/AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /root/.android/build-cache/8317b189232ac7403a7d5f273f46dd40dab86c18/output/AndroidManifest.xml:20:20-65

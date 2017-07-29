@@ -771,7 +771,7 @@
     <string name="fname">First Name</string>
     <string name="friend_list_sub_header">Friend List</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
-        YOUR_KEY_HERE
+         AIzaSyAWUHZ4vdjXT1G_yvjw0ha1BaHiz33mPuU
     </string>
     <string name="lname">Last Name</string>
     <string name="login">Login</string>

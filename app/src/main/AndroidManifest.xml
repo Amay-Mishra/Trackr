@@ -75,12 +75,18 @@
              You can define the keys for the debug and release targets in src/debug/ and src/release/. 
         -->
         <meta-data
-            android:name="com.google.android.geo.API_KEY"
+            android:name="com.google.android.maps.v2.API_KEY"
             android:value="@string/google_maps_key" />
-
         <activity
             android:name=".TrackFriend"
-            android:label="@string/title_activity_track_friend"></activity>
+            android:label="@string/title_activity_track_friend">
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="com.example.root.trackr.TrackFriend" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
