@@ -1,5 +1,17 @@
 [
     {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_settings_black_24dp.png",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/mipmap-mdpi/ic_settings_black_24dp.png"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_power_settings_new_black_24dp.png",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/mipmap-mdpi/ic_power_settings_new_black_24dp.png"
+    },
+    {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_power_settings_new_black_24dp.png",
         "source": "/root/Android Studio Projects/Trackr/app/src/main/res/mipmap-mdpi/ic_power_settings_new_black_24dp.png"
     },
@@ -8,8 +20,16 @@
         "source": "/root/Android Studio Projects/Trackr/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_settings_black_24dp.png",
         "source": "/root/Android Studio Projects/Trackr/app/src/main/res/mipmap-mdpi/ic_settings_black_24dp.png"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_account_circle_black_24dp.png",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/mipmap-mdpi/ic_account_circle_black_24dp.png"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",

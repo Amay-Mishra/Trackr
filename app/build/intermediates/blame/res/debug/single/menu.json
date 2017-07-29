@@ -2,5 +2,9 @@
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/menu/navigation_menu.xml",
         "source": "/root/Android Studio Projects/Trackr/app/src/main/res/menu/navigation_menu.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/menu/navigation_menu.xml",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/menu/navigation_menu.xml"
     }
 ]

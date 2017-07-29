@@ -4,16 +4,112 @@
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/root/.android/build-cache/daf1de0093e65531e36a68172ddc3d610d8b75a0/output/res/color/common_google_signin_btn_text_dark.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_search_url_text.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/root/.android/build-cache/3e3f41709192bd6da78cbcbc13e2baa2d372969a/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/color/design_error.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/color/design_error.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/root/.android/build-cache/daf1de0093e65531e36a68172ddc3d610d8b75a0/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/color/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/root/.android/build-cache/daf1de0093e65531e36a68172ddc3d610d8b75a0/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/root/.android/build-cache/3e3f41709192bd6da78cbcbc13e2baa2d372969a/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_search_url_text.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
@@ -24,20 +120,12 @@
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_switch_thumb.xml"
-    },
-    {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/design_error.xml",
-        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/color/design_error.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/switch_thumb_material_dark.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
@@ -52,51 +140,63 @@
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_spinner.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_hint_foreground_material_dark.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/root/.android/build-cache/3e3f41709192bd6da78cbcbc13e2baa2d372969a/output/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
         "source": "/root/.android/build-cache/daf1de0093e65531e36a68172ddc3d610d8b75a0/output/res/color/common_google_signin_btn_tint.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/root/.android/build-cache/daf1de0093e65531e36a68172ddc3d610d8b75a0/output/res/color/common_google_signin_btn_text_light.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_btn_colored_borderless_text_material.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_btn_colored_text_material.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/switch_thumb_material_dark.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_default.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_btn_colored_text_material.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_edittext.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_secondary_text_material_light.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/switch_thumb_material_light.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_default.xml"
-    },
-    {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_switch_thumb.xml"
     }
 ]

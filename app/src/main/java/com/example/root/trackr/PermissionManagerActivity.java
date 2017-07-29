@@ -425,7 +425,7 @@ public class PermissionManagerActivity extends AppCompatActivity implements Comp
                                 HashMap<String, String> headers = new HashMap<String, String>();
                                 headers.put("Content-Type", "application/json");
                                 headers.put("charset", "utf-8");
-                                headers.put("userId", userId);
+                                headers.put("bcd", userId);
                                 headers.put("abc", authToken);
                                 return headers;
                             }

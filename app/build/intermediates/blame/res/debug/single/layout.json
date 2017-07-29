@@ -1,13 +1,5 @@
 [
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
-        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_layout_tab_text.xml"
-    },
-    {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_activity_chooser_view_list_item.xml"
     },
@@ -20,28 +12,8 @@
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
-        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_menu.xml"
-    },
-    {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
-        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_mode_bar.xml"
-    },
-    {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/activity_permission_manager.xml",
-        "source": "/root/Android Studio Projects/Trackr/app/src/main/res/layout/activity_permission_manager.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
@@ -52,12 +24,28 @@
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/notification_template_media_custom.xml"
     },
     {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_layout_snackbar.xml"
+    },
+    {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
         "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
@@ -68,36 +56,32 @@
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/list_friend_list.xml",
-        "source": "/root/Android Studio Projects/Trackr/app/src/main/res/layout/list_friend_list.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_bottom_navigation_item.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_list_menu_item_layout.xml"
     },
     {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/activity_main_menu.xml",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/layout/activity_main_menu.xml"
+    },
+    {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_screen_content_include.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/list_search_friend.xml",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/layout/list_search_friend.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
-        "source": "/root/Android Studio Projects/Trackr/app/src/main/res/layout/activity_login.xml"
-    },
-    {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_bar_up_container.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
@@ -112,6 +96,14 @@
         "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_bottom_navigation_item.xml"
     },
     {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/notification_template_media.xml"
+    },
+    {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
         "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_layout_tab_icon.xml"
     },
@@ -120,8 +112,8 @@
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/support_simple_spinner_dropdown_item.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/layout_header.xml",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/layout/layout_header.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/navigation_action.xml",
@@ -130,6 +122,254 @@
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/navigation_action.xml",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/layout/navigation_action.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/list_friend_list.xml",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/layout/list_friend_list.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/root/Android Studio Projects/Trackr/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/activity_permission_manager.xml",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/layout/activity_permission_manager.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/activity_permission_manager.xml",
+        "source": "/root/Android Studio Projects/Trackr/app/src/main/res/layout/activity_permission_manager.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/list_friend_list.xml",
+        "source": "/root/Android Studio Projects/Trackr/app/src/main/res/layout/list_friend_list.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/root/Android Studio Projects/Trackr/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
@@ -148,44 +388,44 @@
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
-        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_item_subheader.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_dialog_title_material.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_list_menu_item_checkbox.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_bar_title_item.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/layout_header.xml",
         "source": "/root/Android Studio Projects/Trackr/app/src/main/res/layout/layout_header.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
-        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
-        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_text_input_password_icon.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_layout_tab_icon.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/root/Android Studio Projects/Trackr/app/src/main/res/layout/activity_main.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/list_online_friends.xml",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/layout/list_online_friends.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
@@ -200,16 +440,20 @@
         "source": "/root/Android Studio Projects/Trackr/app/src/main/res/layout/activity_main_menu.xml"
     },
     {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/list_search_friend.xml",
         "source": "/root/Android Studio Projects/Trackr/app/src/main/res/layout/list_search_friend.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/notification_template_part_time.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/activity_track_friend.xml",
@@ -220,20 +464,20 @@
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_activity_chooser_view.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
-        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_item_header.xml"
-    },
-    {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
         "source": "/root/Android Studio Projects/Trackr/app/src/main/res/layout/activity_register.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_menu_layout.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/activity_track_friend.xml",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/layout/activity_track_friend.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_dialog_title_material.xml"
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
