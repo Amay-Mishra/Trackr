@@ -10,51 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7b1f17f-ae0f-4d27-bec7-9559e0ca1a36" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/javaCompile/classAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/3.4/javaCompile/javaCompile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/javaCompile/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/AppConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/AppConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$4$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$4$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$4$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$4$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$7$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$7$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$5$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$5$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$5$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$5$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$5$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$5$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$6$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$6$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$6$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$6$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$7$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$7$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$7$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$7$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$7$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$7$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/PermissionManagerActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_80e28c9fccc96eb2166e13295bae89d6796d25f4.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_80e28c9fccc96eb2166e13295bae89d6796d25f4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/MainMenuActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/MainMenuActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/PermissionManagerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/PermissionManagerActivity.java" />
     </list>
     <ignored path="Trackr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -3026,7 +2982,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501752661621</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added &quot;About Developers&quot; option in Navigation Sidebar">
+      <created>1501752979379</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1501752979379</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3136,7 +3099,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added session manager, singleton class and coded for login and register screen" />
     <MESSAGE value="Added crude placeholder server file." />
     <MESSAGE value="Modified placeholder and added session related endpoints" />
     <MESSAGE value="Reset branch to commit id 38fdea5" />
@@ -3161,7 +3123,8 @@
     <MESSAGE value="Added activity to display friend's location" />
     <MESSAGE value="Resolved Issue #3" />
     <MESSAGE value="Completed MainMenu Activity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed MainMenu Activity" />
+    <MESSAGE value="Added &quot;About Developers&quot; option in Navigation Sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;About Developers&quot; option in Navigation Sidebar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
