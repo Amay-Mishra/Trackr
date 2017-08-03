@@ -473,7 +473,7 @@ public class MainMenuActivity extends AppCompatActivity {
 
             JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
                     Request.Method.POST,
-                    AppConfig.MAP_URL_GET,
+                    AppConfig.MAP_URL_SEND,
                     postUser,
                     new Response.Listener<JSONObject>() {
                         @Override
