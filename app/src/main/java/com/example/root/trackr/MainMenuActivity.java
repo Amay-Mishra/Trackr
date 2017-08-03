@@ -235,9 +235,6 @@ public class MainMenuActivity extends AppCompatActivity {
                                 finish();
                                 break;
                             case R.id.nav_main_menu:
-                                intent = new Intent("com.example.root.trackr.MainMenuActivity");
-                                startActivity(intent);
-                                finish();
                                 break;
                             case R.id.nav_about:
                                 AlertDialog.Builder logoutAlertBuilder = new AlertDialog.Builder(MainMenuActivity.this);

@@ -319,12 +319,9 @@ public class PermissionManagerActivity extends AppCompatActivity implements Comp
                     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                         switch(item.getItemId()) {
                             case R.id.nav_permission_manager :
-                                Intent intent = new Intent("com.example.root.trackr.PermissionManagerActivity");
-                                startActivity(intent);
-                                finish();
                                 break;
                             case R.id.nav_main_menu :
-                                intent = new Intent("com.example.root.trackr.MainMenuActivity");
+                                Intent intent = new Intent("com.example.root.trackr.MainMenuActivity");
                                 startActivity(intent);
                                 finish();
                                 break;

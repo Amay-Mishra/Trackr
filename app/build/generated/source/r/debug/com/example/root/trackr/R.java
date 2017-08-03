@@ -3735,6 +3735,7 @@ containing a value of this type.
         public static final int ic_launcher_round=0x7f030004;
         public static final int ic_power_settings_new_black_24dp=0x7f030005;
         public static final int ic_settings_black_24dp=0x7f030006;
+        public static final int trackr_logo=0x7f030007;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f070000;
