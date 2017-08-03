@@ -78,7 +78,6 @@ public final class R {
         public static final int adjust_height = 0x7f0d0041;
         public static final int adjust_width = 0x7f0d0042;
         public static final int auto = 0x7f0d002d;
-        public static final int button = 0x7f0d0094;
         public static final int center = 0x7f0d002f;
         public static final int dark = 0x7f0d004e;
         public static final int hybrid = 0x7f0d0043;

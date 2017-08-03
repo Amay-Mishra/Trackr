@@ -49,8 +49,6 @@ import java.util.zip.Inflater;
 
 public class PermissionManagerActivity extends AppCompatActivity implements CompoundButton.OnCheckedChangeListener{
 
-    private ListView mDrawerList;
-    private ArrayAdapter<String> mAdapter;
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
     private Toolbar mToolbar;
@@ -82,13 +80,6 @@ public class PermissionManagerActivity extends AppCompatActivity implements Comp
 
    int friendPermissionStatus, friendId;
 
-    // Array of strings...
-    String[] searchFriendArray = {"Debargha Bhattacharjee","Debojit Bhattacharjee","Amay Mishra","Debjyoti Pandit",
-            "Hariom","Jagdish Kumar Verma","Amit Singh","Ravi Kumar"};
-    String[] friendListArray = {"Debargha Bhattacharjee","Debojit Bhattacharjee","Amay Mishra","Debjyoti Pandit",
-            "Hariom","Jagdish Kumar Verma","Amit Singh","Ravi Kumar"};
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -108,10 +99,6 @@ public class PermissionManagerActivity extends AppCompatActivity implements Comp
         addListenerForButton();
 
         addListenerForNavigationView();
-
-//        addListenerForSwitch();
-//
-//        addListenerForListView();
 
 
     }
@@ -216,16 +203,12 @@ public class PermissionManagerActivity extends AppCompatActivity implements Comp
 
     }
 
-
-
     public void addListenerForActionBar() {
         setSupportActionBar(mToolbar);
         mDrawerLayout.addDrawerListener(mToggle);
         mToggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
-
-
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -343,6 +326,8 @@ public class PermissionManagerActivity extends AppCompatActivity implements Comp
                                 intent = new Intent("com.example.root.trackr.MainMenuActivity");
                                 startActivity(intent);
                                 break;
+                            case R.id.nav_about:
+                                break;
                             case R.id.nav_logout:
                                 AlertDialog.Builder logoutAlertBuilder = new AlertDialog.Builder(PermissionManagerActivity.this);
                                 logoutAlertBuilder.setMessage("Do you want to logout and Exit?")
@@ -450,9 +435,6 @@ public class PermissionManagerActivity extends AppCompatActivity implements Comp
                 }
         );
     }
-
-
-
 
     public void onBackPressed() {
         //disable going back to the MainActivity

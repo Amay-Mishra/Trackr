@@ -4,14 +4,18 @@
     <item
         android:id="@+id/nav_main_menu"
         android:title="@string/nav_menu1"
-        android:icon="@mipmap/ic_account_circle_black_24dp"/>
+        android:icon="@mipmap/ic_dashboard_black_24dp"/>
 
     <item android:id="@+id/nav_permission_manager"
         android:title="@string/permission_manager_menu_option"
         android:icon="@mipmap/ic_settings_black_24dp"/>
 
+    <item android:id="@+id/nav_about"
+        android:title="@string/nav_menu3"
+        android:icon="@mipmap/ic_info_black_24dp"/>
+
     <item android:id="@+id/nav_logout"
-        android:title="@string/logout_menu_option"
+        android:title="@string/nav_menu4"
         android:icon="@mipmap/ic_power_settings_new_black_24dp"/>
 
 

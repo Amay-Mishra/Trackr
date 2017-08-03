@@ -36,7 +36,15 @@
         "source": "/root/StudioProjects/Trackr/app/src/main/res/mipmap-xhdpi/ic_settings_black_24dp.png"
     },
     {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_dashboard_black_24dp.png",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/mipmap-xhdpi/ic_dashboard_black_24dp.png"
+    },
+    {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_power_settings_new_black_24dp.png",
         "source": "/root/Android Studio Projects/Trackr/app/src/main/res/mipmap-xhdpi/ic_power_settings_new_black_24dp.png"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_info_black_24dp.png",
+        "source": "/root/StudioProjects/Trackr/app/src/main/res/mipmap-xhdpi/ic_info_black_24dp.png"
     }
 ]

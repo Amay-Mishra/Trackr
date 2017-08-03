@@ -9,9 +9,12 @@ import android.content.pm.PackageManager;
 import android.location.*;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
+import android.support.annotation.IdRes;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.NotificationCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
@@ -23,8 +26,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ListView;
+import android.widget.RadioGroup;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -37,6 +42,7 @@ import com.android.volley.RetryPolicy;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.StringRequest;
 import com.google.gson.Gson;
 
 import org.json.JSONArray;
@@ -50,8 +56,6 @@ import java.util.TimerTask;
 
 public class MainMenuActivity extends AppCompatActivity {
 
-    private ListView mDrawerList;
-    private ArrayAdapter<String> mAdapter;
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
     private Toolbar mToolbar;
@@ -68,8 +72,14 @@ public class MainMenuActivity extends AppCompatActivity {
     ArrayList<OnlineFriend> onlineFriends;
     private static OnlineFriendListAdapter onlineFriendListAdapter;
     private User currentUser;
+    private String mLatitude, mLongitude;
+    private int powerMode = 10000;
+    private RadioGroup radioGroup_power_mode;
 
+    Timer myTimer;
+    MyTimerTask myTimerTask;
 
+    private Button button_track;
 
 
     OnlineFriend onlineFriend;
@@ -80,9 +90,6 @@ public class MainMenuActivity extends AppCompatActivity {
     //inflater
     LayoutInflater inflater;
 
-    // Array of strings...
-    String[] onlineFriendsArray = {"Debargha Bhattacharjee", "Debojit Bhattacharjee", "Amay Mishra", "Debjyoti Pandit",
-            "Hariom", "Jagdish Kumar Verma", "Amit Singh", "Ravi Kumar"};
 
 
     @Override
@@ -105,6 +112,10 @@ public class MainMenuActivity extends AppCompatActivity {
 
         addListenerForNavigationView();
 
+        addListenerForButton();
+
+        addListenerForRadioGroup();
+
 
     }
 
@@ -115,6 +126,11 @@ public class MainMenuActivity extends AppCompatActivity {
         mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
         textView_tracking_status = (TextView) findViewById(R.id.textViewTrackingStatus);
         textView_selected_friend = (TextView) findViewById(R.id.textViewSelectedFriend);
+
+        button_track = (Button) findViewById(R.id.buttonTrack);
+
+        radioGroup_power_mode = (RadioGroup) findViewById(R.id.radioGroupPowerMode);
+
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
         sharedPreferencesProfileInformation = getSharedPreferences("ProfileInformation", Context.MODE_PRIVATE);
@@ -221,6 +237,8 @@ public class MainMenuActivity extends AppCompatActivity {
                                 intent = new Intent("com.example.root.trackr.MainMenuActivity");
                                 startActivity(intent);
                                 break;
+                            case R.id.nav_about:
+                                break;
                             case R.id.nav_logout:
                                 AlertDialog.Builder logoutAlertBuilder = new AlertDialog.Builder(MainMenuActivity.this);
                                 logoutAlertBuilder.setMessage("Do you want to logout and Exit?")
@@ -258,24 +276,6 @@ public class MainMenuActivity extends AppCompatActivity {
         moveTaskToBack(true);
     }
 
-    public void addListenerForSwitch() {
-        switch_enable_tracking.setOnCheckedChangeListener(
-                new CompoundButton.OnCheckedChangeListener() {
-                    @Override
-                    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                        String trackingStatus;
-                        if (isChecked) {
-                            trackingStatus = getResources().getString(R.string.tracking_enabled);
-                            startTracking();
-                        } else {
-                            trackingStatus = getResources().getString(R.string.tracking_disabled);
-                            stopTrackng();
-                        }
-                        textView_tracking_status.setText(trackingStatus);
-                    }
-                }
-        );
-    }
 
 
     public void addListenerForActionBar() {
@@ -298,17 +298,73 @@ public class MainMenuActivity extends AppCompatActivity {
         );
     }
 
-
-
-    public void track(View view){
-        Intent intent = new Intent(MainMenuActivity.this,TrackFriend.class);
-        Bundle bundle = new Bundle();
-        bundle.putInt("id",onlineFriend.getId());
-        Log.d("bundle", String.valueOf(bundle));
-        intent.putExtras(bundle);
-        startActivityForResult(intent,1);
+    public void addListenerForButton() {
+        button_track.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(MainMenuActivity.this,TrackFriend.class);
+                        Bundle bundle = new Bundle();
+                        bundle.putInt("id",onlineFriend.getId());
+                        Log.d("bundle", String.valueOf(bundle));
+                        intent.putExtras(bundle);
+                        startActivityForResult(intent,1);
+                    }
+                }
+        );
     }
 
+    public void addListenerForRadioGroup() {
+        radioGroup_power_mode.setOnCheckedChangeListener(
+            new RadioGroup.OnCheckedChangeListener() {
+                @Override
+                public void onCheckedChanged(RadioGroup group, @IdRes final int checkedId) {
+                    if(switch_enable_tracking.isChecked()) {
+                        AlertDialog.Builder logoutAlertBuilder = new AlertDialog.Builder(MainMenuActivity.this);
+                        logoutAlertBuilder.setMessage("Cannot change Power Mode while Tracking is enabled. " +
+                                    "Are you sure you want to disable tracking and change power mode?")
+                                .setCancelable(false)
+                                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        switch_enable_tracking.setChecked(false);
+                                        switch (checkedId) {
+                                            case R.id.radioButtonNormal:
+                                                powerMode = 10000;
+                                                break;
+                                            case R.id.radioButtonPowerSaver:
+                                                powerMode = 20000;
+                                                break;
+                                        }
+                                        Log.d("Power Mode Time", String.valueOf(powerMode));
+                                    }
+                                })
+                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.cancel();
+                            }
+                        });
+
+                        AlertDialog logoutAlert = logoutAlertBuilder.create();
+                        logoutAlert.setTitle("Disable tracking first!!!");
+                        logoutAlert.show();
+                    } else {
+                        switch (checkedId) {
+                            case R.id.radioButtonNormal:
+                                powerMode = 10000;
+                                break;
+                            case R.id.radioButtonPowerSaver:
+                                powerMode = 20000;
+                                break;
+                        }
+                        Log.d("Power Mode Time", String.valueOf(powerMode));
+                    }
+
+                }
+            }
+        );
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -318,61 +374,53 @@ public class MainMenuActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-//    private void addDrawerItems() {
-//        String[] osArray= { "h"};
-//    }
 
+    private class MyTimerTask extends TimerTask {
+        @Override
+        public void run() {
+            //get and send location information
+            upload();
+        }
+    }
+
+    public void addListenerForSwitch() {
+        switch_enable_tracking.setOnCheckedChangeListener(
+                new CompoundButton.OnCheckedChangeListener() {
+                    @Override
+                    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                        String trackingStatus;
+                        if (isChecked) {
+                            trackingStatus = getResources().getString(R.string.tracking_enabled);
+                            startTracking();
+                        } else {
+                            trackingStatus = getResources().getString(R.string.tracking_disabled);
+                            stopTracking();
+                        }
+                        textView_tracking_status.setText(trackingStatus);
+                    }
+                }
+        );
+    }
 
     public void startTracking() {
 
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
-            return;
-        }
+    if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+        return;
+    }
         locationManager.requestLocationUpdates(locationManager.GPS_PROVIDER, 0, 0, locationListener);
-        callAsynchronousTask();
+        myTimer = new Timer();
+        myTimerTask = new MyTimerTask();
+        myTimer.scheduleAtFixedRate(myTimerTask, 0, powerMode);
     }
 
-    public void stopTrackng() {
+    public void stopTracking() {
         locationManager.removeUpdates(locationListener);
-        //TODO kill async task
+        myTimer.cancel();
     }
 
-    public void callAsynchronousTask() {
-        final Handler handler = new Handler();
-        Timer timer = new Timer();
-        TimerTask doAsynchronousTask = new TimerTask() {
-            @Override
-            public void run() {
-                handler.post(new Runnable() {
-                    public void run() {
-                        try {
-                            upload();
-                        } catch (Exception e) {
-                            // TODO Auto-generated catch block
-                        }
-                    }
-                });
-            }
-        };
-        timer.schedule(doAsynchronousTask, 0, 10000);
-    }
 
     private void upload() {
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
             return;
         }
         location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
@@ -381,62 +429,77 @@ public class MainMenuActivity extends AppCompatActivity {
             if(noOfRetries>3){
                 //TODO dialog box prompting user to disable tracking
             }
-            Toast.makeText(MainMenuActivity.this, "location not available", Toast.LENGTH_SHORT).show();
+            MainMenuActivity.this.runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    Message.message(MainMenuActivity.this, "location not available");
+                }
+            });
             Log.d("No location recieved", "it was in vain");
         } else {
             noOfRetries = 0;
             Log.d("upload", "null");
-            Toast.makeText(MainMenuActivity.this, "latitude: "+String.valueOf(location.getLatitude())+" longitude : "+String.valueOf(location.getLongitude()), Toast.LENGTH_SHORT).show();
-            Log.d("lats", String.valueOf(location.getLatitude()));
-            Log.d("longs", String.valueOf(location.getLongitude()));
-            {
-                Gson gson = new Gson();
-                String json = sharedPreferencesProfileInformation.getString("currentUser", "");
-                currentUser = gson.fromJson(json, User.class);
-                CustomLocation customLocation = new CustomLocation(String.valueOf(location.getLatitude()),currentUser.getId(),String.valueOf(location.getLongitude()));
-                String postUser = gson.toJson(customLocation, CustomLocation.class);
+            mLatitude = String.valueOf(location.getLatitude());
+            mLongitude = String.valueOf(location.getLongitude());
 
-                JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
-                        Request.Method.POST,
-                        AppConfig.MAP_URL_GET,
-                        postUser,
-                        new Response.Listener<JSONObject>() {
-                            Location location;
-                            @Override
-                            public void onResponse(JSONObject jsonObject) {
-                                try {
-                                    Log.d("RESPONSE", jsonObject.toString());
-                                    //TODO parse response
-                                } catch (Exception e) {
-                                    e.printStackTrace();
-                                }
-                            }
-                        },
-                        new Response.ErrorListener() {
-                            @Override
-                            public void onErrorResponse(VolleyError error) {
-                                Toast.makeText(MainMenuActivity.this, "Volley Error", Toast.LENGTH_SHORT).show();
-                                error.printStackTrace();
-                            }
-                        }
-                ){
-                    @Override
-                    public Map<String, String> getHeaders() throws AuthFailureError {
-                        super.getHeaders();
-                        HashMap<String, String> headers = new HashMap<String, String>();
-                        headers.put("Content-Type", "application/json");
-                        headers.put("charset", "utf-8");
-                        return headers;
-                    }
-                };
+            MainMenuActivity.this.runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    Message.message(MainMenuActivity.this, "Latitude: " + mLatitude + " Longitude: " + mLongitude);
+                }
+            });
 
-                int socketTimeout = 10000;
-                RetryPolicy policy = new DefaultRetryPolicy(socketTimeout, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
-                jsonObjectRequest.setRetryPolicy(policy);
-                MySingleton.getInstance(MainMenuActivity.this).addToRequestQueue(jsonObjectRequest);
-            }
+            Log.d("lats", mLatitude);
+            Log.d("longs", mLongitude);
+
+            updateLocationDB();
         }
     }
+
+    public void updateLocationDB() {
+            Gson gson = new Gson();
+            String json = sharedPreferencesProfileInformation.getString("currentUser", "");
+            currentUser = gson.fromJson(json, User.class);
+            CustomLocation customLocation = new CustomLocation(String.valueOf(location.getLatitude()),currentUser.getId(),String.valueOf(location.getLongitude()));
+            String postUser = gson.toJson(customLocation, CustomLocation.class);
+
+            JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
+                    Request.Method.POST,
+                    AppConfig.MAP_URL_GET,
+                    postUser,
+                    new Response.Listener<JSONObject>() {
+                        @Override
+                        public void onResponse(JSONObject jsonObject) {
+                            try {
+                                Log.d("RESPONSE", jsonObject.toString());
+                                //TODO parse response
+                            } catch (Exception e) {
+                                e.printStackTrace();
+                            }
+                        }
+                    },
+                    new Response.ErrorListener() {
+                        @Override
+                        public void onErrorResponse(VolleyError error) {
+                            error.printStackTrace();
+                        }
+                    }
+            ){
+                @Override
+                public Map<String, String> getHeaders() throws AuthFailureError {
+                    super.getHeaders();
+                    HashMap<String, String> headers = new HashMap<String, String>();
+                    headers.put("Content-Type", "application/json");
+                    headers.put("charset", "utf-8");
+                    return headers;
+                }
+            };
+
+            int socketTimeout = 10000;
+            RetryPolicy policy = new DefaultRetryPolicy(socketTimeout, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
+            jsonObjectRequest.setRetryPolicy(policy);
+            MySingleton.getInstance(MainMenuActivity.this).addToRequestQueue(jsonObjectRequest);
+        }
 
     LocationListener locationListener = new LocationListener() {
         @Override

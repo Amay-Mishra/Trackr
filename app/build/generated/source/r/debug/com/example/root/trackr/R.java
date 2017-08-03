@@ -3443,7 +3443,6 @@ containing a value of this type.
         public static final int basic=0x7f0d0015;
         public static final int beginning=0x7f0d003f;
         public static final int bottom=0x7f0d002e;
-        public static final int button=0x7f0d0094;
         public static final int buttonChangePermissionStatus=0x7f0d009a;
         public static final int buttonLogin=0x7f0d0088;
         public static final int buttonLoginLink=0x7f0d00a6;
@@ -3451,6 +3450,7 @@ containing a value of this type.
         public static final int buttonReg=0x7f0d00a5;
         public static final int buttonRegLink=0x7f0d0089;
         public static final int buttonSearchFriend=0x7f0d009d;
+        public static final int buttonTrack=0x7f0d0094;
         public static final int cancel_action=0x7f0d00c8;
         public static final int center=0x7f0d002f;
         public static final int center_horizontal=0x7f0d0030;
@@ -3521,8 +3521,9 @@ containing a value of this type.
         public static final int middle=0x7f0d0040;
         public static final int mini=0x7f0d003e;
         public static final int multiply=0x7f0d0027;
+        public static final int nav_about=0x7f0d00df;
         public static final int nav_action=0x7f0d00c3;
-        public static final int nav_logout=0x7f0d00df;
+        public static final int nav_logout=0x7f0d00e0;
         public static final int nav_main_menu=0x7f0d00dd;
         public static final int nav_permission_manager=0x7f0d00de;
         public static final int navigationView=0x7f0d0096;
@@ -3546,7 +3547,7 @@ containing a value of this type.
         public static final int radio=0x7f0d006e;
         public static final int radioButtonNormal=0x7f0d0090;
         public static final int radioButtonPowerSaver=0x7f0d0091;
-        public static final int radioGroupMode=0x7f0d008e;
+        public static final int radioGroupPowerMode=0x7f0d008e;
         public static final int relativeLayout=0x7f0d008d;
         public static final int right=0x7f0d0035;
         public static final int right_icon=0x7f0d00d5;
@@ -3728,10 +3729,12 @@ containing a value of this type.
     }
     public static final class mipmap {
         public static final int ic_account_circle_black_24dp=0x7f030000;
-        public static final int ic_launcher=0x7f030001;
-        public static final int ic_launcher_round=0x7f030002;
-        public static final int ic_power_settings_new_black_24dp=0x7f030003;
-        public static final int ic_settings_black_24dp=0x7f030004;
+        public static final int ic_dashboard_black_24dp=0x7f030001;
+        public static final int ic_info_black_24dp=0x7f030002;
+        public static final int ic_launcher=0x7f030003;
+        public static final int ic_launcher_round=0x7f030004;
+        public static final int ic_power_settings_new_black_24dp=0x7f030005;
+        public static final int ic_settings_black_24dp=0x7f030006;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f070000;
@@ -3802,38 +3805,39 @@ containing a value of this type.
         public static final int nav_menu1=0x7f070043;
         public static final int nav_menu2=0x7f070044;
         public static final int nav_menu3=0x7f070045;
-        public static final int normal=0x7f070046;
-        public static final int open=0x7f070047;
-        public static final int password_toggle_content_description=0x7f070048;
-        public static final int path_password_eye=0x7f070049;
-        public static final int path_password_eye_mask_strike_through=0x7f07004a;
-        public static final int path_password_eye_mask_visible=0x7f07004b;
-        public static final int path_password_strike_through=0x7f07004c;
-        public static final int permission_manager_link=0x7f07004d;
-        public static final int permission_manager_menu_option=0x7f07004e;
-        public static final int phone=0x7f07004f;
-        public static final int power_mode=0x7f070050;
-        public static final int power_saver=0x7f070051;
-        public static final int profile_id_header=0x7f070052;
-        public static final int profile_name_header=0x7f070053;
-        public static final int profile_phone_header=0x7f070054;
-        public static final int profile_welcome_message=0x7f070055;
-        public static final int psw=0x7f070056;
-        public static final int reg=0x7f070057;
-        public static final int regLink=0x7f070058;
-        public static final int search_friend_button=0x7f070059;
-        public static final int search_friend_sub_header=0x7f07005a;
+        public static final int nav_menu4=0x7f070046;
+        public static final int normal=0x7f070047;
+        public static final int open=0x7f070048;
+        public static final int password_toggle_content_description=0x7f070049;
+        public static final int path_password_eye=0x7f07004a;
+        public static final int path_password_eye_mask_strike_through=0x7f07004b;
+        public static final int path_password_eye_mask_visible=0x7f07004c;
+        public static final int path_password_strike_through=0x7f07004d;
+        public static final int permission_manager_link=0x7f07004e;
+        public static final int permission_manager_menu_option=0x7f07004f;
+        public static final int phone=0x7f070050;
+        public static final int power_mode=0x7f070051;
+        public static final int power_saver=0x7f070052;
+        public static final int profile_id_header=0x7f070053;
+        public static final int profile_name_header=0x7f070054;
+        public static final int profile_phone_header=0x7f070055;
+        public static final int profile_welcome_message=0x7f070056;
+        public static final int psw=0x7f070057;
+        public static final int reg=0x7f070058;
+        public static final int regLink=0x7f070059;
+        public static final int search_friend_button=0x7f07005a;
+        public static final int search_friend_sub_header=0x7f07005b;
         public static final int search_menu_title=0x7f070024;
-        public static final int selected=0x7f07005b;
-        public static final int selected_friend=0x7f07005c;
-        public static final int selected_friend_init_msg=0x7f07005d;
-        public static final int selected_friend_permission=0x7f07005e;
+        public static final int selected=0x7f07005c;
+        public static final int selected_friend=0x7f07005d;
+        public static final int selected_friend_init_msg=0x7f07005e;
+        public static final int selected_friend_permission=0x7f07005f;
         public static final int status_bar_notification_info_overflow=0x7f070025;
-        public static final int sub_header=0x7f07005f;
-        public static final int title_activity_track_friend=0x7f070060;
-        public static final int track_friend_link=0x7f070061;
-        public static final int tracking_disabled=0x7f070062;
-        public static final int tracking_enabled=0x7f070063;
+        public static final int sub_header=0x7f070060;
+        public static final int title_activity_track_friend=0x7f070061;
+        public static final int track_friend_link=0x7f070062;
+        public static final int tracking_disabled=0x7f070063;
+        public static final int tracking_enabled=0x7f070064;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0900a1;
@@ -3841,8 +3845,6 @@ containing a value of this type.
         public static final int Animation_AppCompat_Dialog=0x7f0900a3;
         public static final int Animation_AppCompat_DropDownUp=0x7f0900a4;
         public static final int Animation_Design_BottomSheetDialog=0x7f0900a5;
-        /**  Customize your theme here. 
-         */
         public static final int AppTheme=0x7f0900a6;
         public static final int Base_AlertDialog_AppCompat=0x7f0900a7;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f0900a8;
@@ -3998,8 +4000,6 @@ containing a value of this type.
         public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f090085;
         public static final int Base_Widget_Design_AppBarLayout=0x7f0900d2;
         public static final int Base_Widget_Design_TabLayout=0x7f0900d3;
-        /**  Customize your theme here. 
-         */
         public static final int LoginRegTheme=0x7f0900d4;
         public static final int MainMenuTheme=0x7f0900d5;
         public static final int PermissionManagerTheme=0x7f0900d6;
