@@ -20,12 +20,20 @@
         "source": "/root/StudioProjects/Trackr/app/src/main/res/mipmap-xxhdpi/ic_dashboard_black_24dp.png"
     },
     {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_info_black_24dp.png",
+        "source": "/root/Android Studio Projects/Trackr/app/src/main/res/mipmap-xxhdpi/ic_info_black_24dp.png"
+    },
+    {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_info_black_24dp.png",
         "source": "/root/StudioProjects/Trackr/app/src/main/res/mipmap-xxhdpi/ic_info_black_24dp.png"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
         "source": "/root/Android Studio Projects/Trackr/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_dashboard_black_24dp.png",
+        "source": "/root/Android Studio Projects/Trackr/app/src/main/res/mipmap-xxhdpi/ic_dashboard_black_24dp.png"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_power_settings_new_black_24dp.png",

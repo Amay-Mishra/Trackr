@@ -497,6 +497,7 @@ public class MainMenuActivity extends AppCompatActivity {
                     HashMap<String, String> headers = new HashMap<String, String>();
                     headers.put("Content-Type", "application/json");
                     headers.put("charset", "utf-8");
+                    headers.put("abc",currentUser.getAuthToken());
                     return headers;
                 }
             };

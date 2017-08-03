@@ -38,12 +38,13 @@ public class TrackFriend extends FragmentActivity implements OnMapReadyCallback 
     private User currentUser;
     Bundle extras;
     private SharedPreferences sharedPreferencesProfileInformation;
+    TimerTask doAsynchronousTask;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         extras = getIntent().getExtras();
-            Log.d("---------------------", String.valueOf(extras.getInt("id")));
+        Log.d("---------------------", String.valueOf(extras.getInt("id")));
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_track_friend);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
@@ -77,17 +78,99 @@ public class TrackFriend extends FragmentActivity implements OnMapReadyCallback 
 //        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        doAsynchronousTask.cancel();
+        finish();
+    }
 
     public void callAsynchronousTask() {
         final Handler handler = new Handler();
         Timer timer = new Timer();
-        TimerTask doAsynchronousTask = new TimerTask() {
+        doAsynchronousTask = new TimerTask() {
             @Override
             public void run() {
                 handler.post(new Runnable() {
                     public void run() {
                         try {
-                            getLocation();
+//                            getLocation();
+
+
+                            {
+                                Gson gson = new Gson();
+                                String json = sharedPreferencesProfileInformation.getString("currentUser", "");
+                                currentUser = gson.fromJson(json, User.class);
+
+
+
+                                User requestUser = new User("0", "0", extras.getInt("id"), "0", "0", currentUser.getAuthToken());
+                                String postUser = gson.toJson(requestUser, User.class);
+
+                                JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
+                                        Request.Method.POST,
+                                        AppConfig.MAP_URL_GET,
+                                        postUser,
+                                        new Response.Listener<JSONObject>() {
+                                            Location location;
+                                            @Override
+                                            public void onResponse(JSONObject jsonObject) {
+                                                try {
+                                                    Log.d("TAG", "onResponse: ----------------------");
+                                                    Log.d("RESPONSE", jsonObject.toString());
+                                                    Double latitude,longitude;
+                                                    latitude = Double.valueOf(jsonObject.getString("latitude"));
+                                                    longitude = Double.valueOf(jsonObject.getString("longitude"));
+                                                    Log.d("latitude--", jsonObject.getString("latitude"));
+                                                    try {
+                                                        //                                  globalLocation.setLatitude(location.getLatitude())
+                                                        //                                  globalLocation.setLongitude(location.getLongitude());
+                                                        mMap.clear();
+                                                        LatLng latLng = new LatLng(latitude,longitude);
+                                                        mMap.addMarker(new MarkerOptions().position(latLng).title("Your friend is here"));
+                                                        mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+
+                                                        //                                 {
+                                                        //                                    Toast.makeText(TrackFriend.this, "User has gone offline...", Toast.LENGTH_SHORT).show();
+                                                        //                                    goneOffline();
+                                                        //                                }
+
+                                                    } catch (NullPointerException ne) {
+                                                        ne.printStackTrace();
+                                                        Toast.makeText(TrackFriend.this, "unable to fetch location from database", Toast.LENGTH_SHORT).show();
+                                                    }
+
+                                                } catch (Exception e) {
+                                                    e.printStackTrace();
+                                                }
+                                            }
+                                        },
+                                        new Response.ErrorListener() {
+                                            @Override
+                                            public void onErrorResponse(VolleyError error) {
+                                                Toast.makeText(TrackFriend.this, "Volley Error", Toast.LENGTH_SHORT).show();
+                                                error.printStackTrace();
+                                            }
+                                        }
+                                ){
+                                    @Override
+                                    public Map<String, String> getHeaders() throws AuthFailureError {
+                                        super.getHeaders();
+                                        HashMap<String, String> headers = new HashMap<String, String>();
+                                        headers.put("Content-Type", "application/json");
+                                        headers.put("charset", "utf-8");
+                                        return headers;
+                                    }
+                                };
+
+                                int socketTimeout = 10000;//10 seconds - change to what you want
+                                RetryPolicy policy = new DefaultRetryPolicy(socketTimeout, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
+                                jsonObjectRequest.setRetryPolicy(policy);
+                                MySingleton.getInstance(TrackFriend.this).addToRequestQueue(jsonObjectRequest);
+                            }
+
+
+
                         } catch (Exception e) {
                             // TODO Auto-generated catch block
                         }
@@ -95,89 +178,96 @@ public class TrackFriend extends FragmentActivity implements OnMapReadyCallback 
                 });
             }
         };
-        timer.schedule(doAsynchronousTask, 0, 10000); //execute in every 50000 ms
+        timer.schedule(doAsynchronousTask, 0, 10000);
     }
 
 
-    private void getLocation(){
-        //TODO volley code
-        Gson gson = new Gson();
-        String json = sharedPreferencesProfileInformation.getString("currentUser", "");
-        currentUser = gson.fromJson(json, User.class);
+
+//    private void getLocation(){
+//        //TODO volley code
+//        Gson gson = new Gson();
+//        String json = sharedPreferencesProfileInformation.getString("currentUser", "");
+//        currentUser = gson.fromJson(json, User.class);
+//
+//
+//
+//        User requestUser = new User("0", "0", extras.getInt("id"), "0", "0", currentUser.getAuthToken());
+//        String postUser = gson.toJson(requestUser, User.class);
+//
+//        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
+//                Request.Method.POST,
+//                AppConfig.MAP_URL_GET,
+//                postUser,
+//                new Response.Listener<JSONObject>() {
+//                    Location location;
+//                    @Override
+//                    public void onResponse(JSONObject jsonObject) {
+//                        try {
+//                            Log.d("TAG", "onResponse: ----------------------");
+//                            Log.d("RESPONSE", jsonObject.toString());
+//                            location.setLatitude(Double.parseDouble(jsonObject.getString("latitude")));
+//                            location.setLongitude(Double.parseDouble(jsonObject.getString("longitude")));
+//                            Log.d("onLatitude: ", String.valueOf(location.getLatitude()));
+//                            Log.d("onLongitude: ", String.valueOf(location.getLongitude()));
+//                            Toast.makeText(TrackFriend.this,
+//                                             String.valueOf(location.getLongitude())
+//                                            +" "
+//                                            +String.valueOf(location.getLatitude()), Toast.LENGTH_SHORT).show();
+////                            Gson gson = new Gson();
+////                            User responseUser = gson.fromJson(jsonObject.toString(), User.class);
+//                            try {
+//                                    globalLocation = location;
+//                                    Toast.makeText(TrackFriend.this, String.valueOf(location.getLatitude())+" "+String.valueOf(location.getLongitude()), Toast.LENGTH_SHORT).show();
+////                                  globalLocation.setLatitude(location.getLatitude())
+////                                  globalLocation.setLongitude(location.getLongitude());
+//                                    mMap.clear();
+//                                    LatLng latLng = new LatLng(globalLocation.getLatitude(),globalLocation.getLongitude());
+//                                    mMap.addMarker(new MarkerOptions().position(latLng).title("Your friend is here"));
+//                                    mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+//
+////                                 {
+////                                    Toast.makeText(TrackFriend.this, "User has gone offline...", Toast.LENGTH_SHORT).show();
+////                                    goneOffline();
+////                                }
+//
+//                            } catch (NullPointerException ne) {
+//                                ne.printStackTrace();
+//                            Toast.makeText(TrackFriend.this, "unable to fetch location from database", Toast.LENGTH_SHORT).show();
+//                            }
+//
+//                        } catch (Exception e) {
+//                            e.printStackTrace();
+//                        }
+//                    }
+//                },
+//                new Response.ErrorListener() {
+//                    @Override
+//                    public void onErrorResponse(VolleyError error) {
+//                        Toast.makeText(TrackFriend.this, "Volley Error", Toast.LENGTH_SHORT).show();
+//                        error.printStackTrace();
+//                    }
+//                }
+//        ){
+//            @Override
+//            public Map<String, String> getHeaders() throws AuthFailureError {
+//                super.getHeaders();
+//                HashMap<String, String> headers = new HashMap<String, String>();
+//                headers.put("Content-Type", "application/json");
+//                headers.put("charset", "utf-8");
+//                return headers;
+//            }
+//        };
+//
+//        int socketTimeout = 10000;//10 seconds - change to what you want
+//        RetryPolicy policy = new DefaultRetryPolicy(socketTimeout, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
+//        jsonObjectRequest.setRetryPolicy(policy);
+//        MySingleton.getInstance(TrackFriend.this).addToRequestQueue(jsonObjectRequest);
+//    }
 
 
-
-        User requestUser = new User("0", "0", extras.getInt("id"), "0", "0", currentUser.getAuthToken());
-        String postUser = gson.toJson(requestUser, User.class);
-
-        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
-                Request.Method.POST,
-                AppConfig.MAP_URL_GET,
-                postUser,
-                new Response.Listener<JSONObject>() {
-                    Location location;
-                    @Override
-                    public void onResponse(JSONObject jsonObject) {
-                        try {
-                            Log.d("TAG", "onResponse: ----------------------");
-                            Log.d("RESPONSE", jsonObject.toString());
-                            location.setLatitude(Double.parseDouble(jsonObject.getString("latitude")));
-                            location.setLongitude(Double.parseDouble(jsonObject.getString("longitude")));
-//                            Gson gson = new Gson();
-//                            User responseUser = gson.fromJson(jsonObject.toString(), User.class);
-                            try {
-                                    globalLocation.setLatitude(location.getLatitude());
-                                    globalLocation.setLongitude(location.getLongitude());
-                                    displayLocation();
-
-                                 {
-                                    Toast.makeText(TrackFriend.this, "User has gone offline...", Toast.LENGTH_SHORT).show();
-                                    goneOffline();
-                                }
-
-                            } catch (NullPointerException ne) {
-                                ne.printStackTrace();
-                            Toast.makeText(TrackFriend.this, "unable to fetch location from database", Toast.LENGTH_SHORT).show();
-                            }
-
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                        }
-                    }
-                },
-                new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(TrackFriend.this, "Volley Error", Toast.LENGTH_SHORT).show();
-                        error.printStackTrace();
-                    }
-                }
-        ){
-            @Override
-            public Map<String, String> getHeaders() throws AuthFailureError {
-                super.getHeaders();
-                HashMap<String, String> headers = new HashMap<String, String>();
-                headers.put("Content-Type", "application/json");
-                headers.put("charset", "utf-8");
-                return headers;
-            }
-        };
-
-        int socketTimeout = 10000;//10 seconds - change to what you want
-        RetryPolicy policy = new DefaultRetryPolicy(socketTimeout, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
-        jsonObjectRequest.setRetryPolicy(policy);
-        MySingleton.getInstance(TrackFriend.this).addToRequestQueue(jsonObjectRequest);
-    }
 
     private void goneOffline(){
         //TODO finish activity
-    }
-
-    private void displayLocation(){
-        mMap.clear();
-        LatLng latLng = new LatLng(globalLocation.getLatitude(),globalLocation.getLongitude());
-        mMap.addMarker(new MarkerOptions().position(latLng).title("Your friend is here"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
     }
 
 }

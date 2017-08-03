@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_dashboard_black_24dp.png",
+        "source": "/root/Android Studio Projects/Trackr/app/src/main/res/mipmap-hdpi/ic_dashboard_black_24dp.png"
+    },
+    {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_account_circle_black_24dp.png",
         "source": "/root/StudioProjects/Trackr/app/src/main/res/mipmap-hdpi/ic_account_circle_black_24dp.png"
     },
@@ -22,6 +26,10 @@
     {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
         "source": "/root/StudioProjects/Trackr/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_info_black_24dp.png",
+        "source": "/root/Android Studio Projects/Trackr/app/src/main/res/mipmap-hdpi/ic_info_black_24dp.png"
     },
     {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_settings_black_24dp.png",

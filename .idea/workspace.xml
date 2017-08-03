@@ -9,8 +9,344 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7b1f17f-ae0f-4d27-bec7-9559e0ca1a36" name="Default" comment="">
+    <list default="true" id="d7b1f17f-ae0f-4d27-bec7-9559e0ca1a36" name="Default" comment="Added &quot;About Developers&quot; option in Navigation Sidebar">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$12.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$13.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$14.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$7$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity$MyTimerTask.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/TrackFriend$1$1$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/TrackFriend$1$1$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/TrackFriend$1$1$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$12.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$13.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$14.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$7$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$MyTimerTask.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/TrackFriend$1$1$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/TrackFriend$1$1$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/TrackFriend$1$1$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/3KbVfRz2jGgiu39VEq73EOlzruU=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/saTV03DFufKJFRGIUVGda9iCuv8=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes_68ecea66fa66dee584adba9eb7ae3a43c1a63048.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes_8d3e8ca1dd46ccec87f61e3a8ffaa6a305293de6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes_b257117296af54484376791e57a211a5b1141759.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes_ee9e271fa030faa93e83ef25c55bc8893522e043.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_5a200c1b57395ade5d12e85562687b2ab97604aa.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_dashboard_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_info_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_dashboard_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_info_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_dashboard_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_info_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_dashboard_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_info_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_dashboard_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_info_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1172d932e6c45ef860189d180f9d6e705e64818c/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2612e13506f70a9b0e68fc2cbc5cb8ee6dc95a00/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2800ce7ee8378839b8fb10bcf9ba26bf5477a954/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4e7c42170183e9c39ac1e21aaef8b375f29337db/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5298e131ab5130859c24c80a34f7d0eaf5ea79c0/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_53fac22fa5a8a895a8b614ad5a552298fb36299a/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6528347135c12214f582019c7aaf6e585981bf89/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_68ecea66fa66dee584adba9eb7ae3a43c1a63048/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_705cae8f3d905f4b8be79023e885634c0171f4e3/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_86e7f05c21ce1b7a589a81d163dd6fe011f07581/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8d3e8ca1dd46ccec87f61e3a8ffaa6a305293de6/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a34fb7ef8ac4ee6638023cba4a44917dbb547170/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a9d4fc1a02f41420a26aa4a633d7dd24c012e07b/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b257117296af54484376791e57a211a5b1141759/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cdb7303659f2fbb28efc781d67835cb75b8c5a97/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d311a3b9f56c04a4f169a9a33e84893b55536fad/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ee9e271fa030faa93e83ef25c55bc8893522e043/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_76f81077aea9bd1699aabfb9818dc8fa3bde44df/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.1_fa54bbb948664cbbf0f1e41c6053f97be1e47aff/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-1.0.19_87c239e70294a00e0380c13aeb73b09582920674/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_71603e9186bae46f98999e0a31ed8167b724c574/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_07f4196f94b89da568e0cfdb92d86a85bbad7555/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c866e77289932263749d1b1fc25460fe4af58cd2/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$12.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$13.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$14.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$7$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$MyTimerTask.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/TrackFriend$1$1$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/TrackFriend$1$1$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/TrackFriend$1$1$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$12.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$13.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$14.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$7$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$MyTimerTask.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/TrackFriend$1$1$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/TrackFriend$1$1$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/TrackFriend$1$1$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_dashboard_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_info_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_dashboard_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_info_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_dashboard_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_info_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_dashboard_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_info_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_dashboard_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_info_black_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/anim.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/color.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/drawable.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/layout-v16.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/layout.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout-v16.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/buildId.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/buildId.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/TrackFriend$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/TrackFriend$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/TrackFriend$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/TrackFriend$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/TrackFriend$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/TrackFriend$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/49aIC1Daup2niQ+X4c_lOw+zZQ0=" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/GGxiDnm7Fn+Txjb1LVbuhtzRsDA=" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/TrackFriend$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/TrackFriend$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/TrackFriend$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/TrackFriend$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/TrackFriend$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/TrackFriend$4.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$8.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$8.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/3.4/fileContent/fileContent.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/javaCompile/classAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/3.4/javaCompile/javaCompile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/javaCompile/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/javaCompile/taskJars.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/AppConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/AppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/MainMenuActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/TrackFriend$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/TrackFriend$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/TrackFriend$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/TrackFriend$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/TrackFriend.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/root/trackr/TrackFriend.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/design/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/design/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/AppConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/AppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$4$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$4$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$4$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$7$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$7$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/MainMenuActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$5$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$5$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$5$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$5$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$5$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$6$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$6$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$6$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$6$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$7$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$7$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$7$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$7$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$7$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$7$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/PermissionManagerActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/TrackFriend$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/TrackFriend$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/TrackFriend$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/TrackFriend$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/TrackFriend.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/root/trackr/TrackFriend.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/3KbVfRz2jGgiu39VEq73EOlzruU=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/3KbVfRz2jGgiu39VEq73EOlzruU=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_4.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_4.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/AppConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/AppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$4$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$4$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$4$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$7$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$7$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/MainMenuActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$5$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$5$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$5$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$5$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$5$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$6$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$6$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$6$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$6$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$7$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$7$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$7$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$7$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$7$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$7$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/PermissionManagerActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/TrackFriend$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/TrackFriend$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/TrackFriend$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/TrackFriend$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/TrackFriend.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/root/trackr/TrackFriend.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/google/android/gms/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/AppConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/AppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$4$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$4$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$4$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$7$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$7$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/MainMenuActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$5$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$5$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$5$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$5$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$5$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$6$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$6$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$6$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$6$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$7$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$7$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$7$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$7$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$7$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$7$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/PermissionManagerActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/TrackFriend$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/TrackFriend$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/TrackFriend$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/TrackFriend$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/TrackFriend.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/example/root/trackr/TrackFriend.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/google/android/gms/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/google/android/gms/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/google/android/gms/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/google/android/gms/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/google/android/gms/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/google/android/gms/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/google/android/gms/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/google/android/gms/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/design/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/design/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_11_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_11_0_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_11_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_basement_11_0_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_maps_11_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_maps_11_0_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_11_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_11_0_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/root/trackr/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/root/trackr/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-hdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-hdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-mdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-mdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xxhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xxhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xxxhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xxxhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.crc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/AppConfig.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/AppConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/MainMenuActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/MainMenuActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/TrackFriend.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/TrackFriend.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="Trackr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,21 +382,16 @@
       <file leaf-file-name="TrackFriend.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/TrackFriend.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1116">
-              <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+            <state relative-caret-position="2250">
+              <caret line="150" column="32" selection-start-line="150" selection-start-column="32" selection-end-line="150" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3313#9017#0" expanded="true" />
+                <element signature="e#3414#8991#0" expanded="true" />
+                <element signature="e#8014#8030#0" expanded="true" />
+                <element signature="e#8990#8991#0" expanded="true" />
+                <element signature="e#9016#9017#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermissionManagerActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/PermissionManagerActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="330" column="87" selection-start-line="330" selection-start-column="87" selection-end-line="330" selection-end-column="87" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -68,34 +399,20 @@
       <file leaf-file-name="OnlineFriendListAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/OnlineFriendListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="138">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainMenuActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainMenuActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/MainMenuActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="241" column="86" selection-start-line="241" selection-start-column="86" selection-end-line="241" selection-end-column="86" />
+            <state relative-caret-position="221">
+              <caret line="499" column="66" selection-start-line="499" selection-start-column="66" selection-end-line="499" selection-end-column="66" />
               <folding>
-                <element signature="e#12598#13132#0" expanded="true" />
-                <element signature="e#13131#13132#0" expanded="true" />
-                <element signature="e#13266#15900#0" expanded="true" />
-                <element signature="e#13929#14851#0" expanded="true" />
-                <element signature="e#14850#14851#0" expanded="true" />
-                <element signature="e#14902#15169#0" expanded="true" />
-                <element signature="e#15168#15169#0" expanded="true" />
-                <element signature="e#15899#15900#0" expanded="true" />
-                <element signature="e#16741#16792#0" expanded="true" />
-                <element signature="e#16917#16969#0" expanded="true" />
-                <element signature="e#18481#18677#0" expanded="true" />
-                <element signature="e#18676#18677#0" expanded="true" />
-                <element signature="e#19003#19229#0" expanded="true" />
-                <element signature="e#19228#19229#0" expanded="true" />
-                <element signature="class#21567:22016" expanded="false" />
+                <element signature="class#21634:22083" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -104,72 +421,18 @@
       <file leaf-file-name="RegisterActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/RegisterActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-737">
+            <state relative-caret-position="289">
               <caret line="103" column="47" selection-start-line="103" selection-start-column="47" selection-end-line="103" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/AppConfig.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navigation_menu.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/navigation_menu.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-              <folding>
-                <element signature="e#178#197#0" expanded="true" />
-                <element signature="e#329#369#0" expanded="true" />
-                <element signature="e#487#506#0" expanded="true" />
-                <element signature="e#621#640#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_permission_manager.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_permission_manager.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="85" column="44" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main_menu.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_menu.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -1748,7 +2011,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4500758434680" />
+        <entry key="$PROJECT_DIR$" value="4503369604240" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1947,141 +2210,141 @@
               <option name="name" value="Trackr" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/installation-beacon" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/build-cache-http" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/publish" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/ide-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/javascript" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/plugin-development" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/dependency-management" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/ui" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/testing-native" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/language-scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/open-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/build-init" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/platform-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/resources-s3" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/wrapper" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/resources-sftp" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/ear" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/jacoco" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/plugin-use" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/plugins" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/ide-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/process-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/javascript" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/wrapper" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/build-init" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/installation-beacon" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/jvm-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/diagnostics" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/tooling-api-builders" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/tooling-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/language-java" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/platform-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/ide-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/testing-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/plugin-development" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/internal-performance-testing" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/antlr" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/model-core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/logging" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/ide" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/testing-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/maven" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/tooling-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/model-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/test-kit" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/reporting" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/testing-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/ivy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/platform-play" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/base-services-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/language-java" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/resources-http" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/tooling-api-builders" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/jvm-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/build-comparison" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/internal-integ-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/language-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/messaging" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/testing-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/ide-play" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/resources" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/base-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/dependency-management" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/code-quality" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/language-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/platform-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/ear" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/platform-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/internal-android-performance-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/cli" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/plugins" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/process-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/announce" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/diagnostics" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/jetty" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/composite-builds" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/ui" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/workers" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/publish" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/model-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/resources" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/test-kit" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/base-services-groovy" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/internal-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/signing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/plugin-use" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/build-cache-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/platform-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/messaging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/reporting" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/internal-android-performance-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/build-comparison" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/platform-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/internal-integ-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/platform-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/code-quality" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/workers" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/resources-sftp" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/osgi" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/ide" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/open-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/composite-builds" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/model-core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/announce" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/resources-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/ivy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/language-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/logging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/cli" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/language-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/signing" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/language-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/testing-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/jetty" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/maven" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/resources-s3" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/launcher" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-docs-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-logging-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/src/core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-native-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-jvm-services-3.4.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-model-core-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-ui-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-logging-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-installation-beacon-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/groovy-all-2.4.7.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-version-info-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-tooling-api-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-messaging-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-base-services-groovy-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-base-services-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-docs-3.4.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-wrapper-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-cli-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-script-kotlin-0.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-resources-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-core-3.4.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/ant-1.9.6.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-launcher-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-ui-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-messaging-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/groovy-all-2.4.7.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-model-groovy-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-installation-beacon-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-resources-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-native-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-core-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-base-services-groovy-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/ant-launcher-1.9.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-base-services-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-script-kotlin-0.5.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-cli-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-tooling-api-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-jvm-services-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-version-info-3.4.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-open-api-3.4.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-process-services-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-test-kit-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-platform-jvm-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-dependency-management-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-maven-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-ivy-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-resources-sftp-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-testing-base-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-workers-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-language-native-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-plugin-use-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-language-java-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-language-jvm-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-announce-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-language-groovy-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-build-cache-http-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-code-quality-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-plugins-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-plugin-development-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-resources-http-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-jacoco-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-build-comparison-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-platform-play-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-testing-jvm-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-publish-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/gradle-model-groovy-3.4.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-ide-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-testing-native-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-ear-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-platform-native-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-language-groovy-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-language-jvm-3.4.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-composite-builds-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-ide-native-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-resources-http-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-testing-base-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-build-comparison-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-plugin-development-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-testing-native-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-publish-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-maven-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-plugin-use-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-antlr-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-tooling-api-builders-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-build-init-3.4.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-platform-base-3.4.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-resources-s3-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-jetty-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-diagnostics-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-ide-play-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-antlr-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-platform-native-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-tooling-api-builders-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-language-scala-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-javascript-3.4.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-osgi-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-build-init-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-reporting-3.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-ear-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-language-native-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-language-java-3.4.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-scala-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-language-scala-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-diagnostics-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-test-kit-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-ide-native-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-ide-play-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-announce-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-platform-play-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-ivy-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-jetty-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-reporting-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-jacoco-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-plugins-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-code-quality-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-testing-jvm-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-dependency-management-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-javascript-3.4.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-signing-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-resources-sftp-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-platform-jvm-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-workers-3.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4-all/4bi7dnjj1pmknw0wphqavp2sz/gradle-3.4/lib/plugins/gradle-build-cache-http-3.4.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -2139,23 +2402,23 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_permission_manager.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/Location.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/CustomLocation.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/TrackFriend.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/navigation_menu.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/AppConfig.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/PermissionManagerActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/TrackFriend.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/AppConfig.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/MainMenuActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="27" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="width" value="1366" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -2187,26 +2450,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trackr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trackr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trackr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2214,10 +2457,6 @@
               <option name="myItemId" value="Trackr" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2227,64 +2466,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trackr" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mipmap" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trackr" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trackr" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2319,19 +2500,29 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Trackr" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trackr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+              <option name="myItemId" value="Trackr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2341,7 +2532,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/ListViewWithCheckBoxes" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="device.picker.selection" value="890679ef7d42" />
+    <property name="device.picker.selection" value="V00776140945026" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi" />
   </component>
   <component name="RecentsManager">
@@ -3002,24 +3193,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277027" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263889" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7995495" sideWeight="0.50747865" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7995495" sideWeight="0.49252138" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20257966" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.4939302" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.597973" sideWeight="0.49305555" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.4939302" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2767094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1494689" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24839744" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -3134,24 +3325,24 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_header.xml">
-      <provider editor-type-id="android-designer2">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_header.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
@@ -3190,24 +3381,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/Model.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
           <caret line="37" column="21" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="48" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/navigation_action.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/navigation_action.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/FriendListListAdapter.java">
@@ -3218,43 +3409,43 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_online_friends.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_search_friend.xml">
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_search_friend.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_friend_list.xml">
-      <provider editor-type-id="android-designer2">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_friend_list.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-504">
           <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="70" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/FriendList.java">
@@ -3328,14 +3519,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_track_friend.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -3347,9 +3538,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="78" column="54" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
@@ -3357,6 +3545,9 @@
             <element signature="e#3356#3381#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml">
@@ -3372,46 +3563,6 @@
         <state relative-caret-position="225">
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#982#983#0" expanded="false" />
-            <element signature="e#1010#1011#0" expanded="false" />
-            <element signature="e#1052#1053#0" expanded="false" />
-            <element signature="e#1086#1087#0" expanded="false" />
-            <element signature="e#1121#1122#0" expanded="false" />
-            <element signature="e#1152#1153#0" expanded="false" />
-            <element signature="e#1200#1201#0" expanded="false" />
-            <element signature="e#1240#1241#0" expanded="false" />
-            <element signature="e#1266#1267#0" expanded="false" />
-            <element signature="e#1291#1292#0" expanded="false" />
-            <element signature="e#1324#1325#0" expanded="false" />
-            <element signature="e#1352#1353#0" expanded="false" />
-            <element signature="e#1384#1385#0" expanded="false" />
-            <element signature="e#1412#1413#0" expanded="false" />
-            <element signature="e#1454#1455#0" expanded="false" />
-            <element signature="e#1488#1489#0" expanded="false" />
-            <element signature="e#1520#1521#0" expanded="false" />
-            <element signature="e#1548#1549#0" expanded="false" />
-            <element signature="e#1590#1591#0" expanded="false" />
-            <element signature="e#1624#1625#0" expanded="false" />
-            <element signature="e#1660#1661#0" expanded="false" />
-            <element signature="e#1692#1693#0" expanded="false" />
-            <element signature="e#1742#1743#0" expanded="false" />
-            <element signature="e#1784#1785#0" expanded="false" />
-            <element signature="e#1835#1836#0" expanded="false" />
-            <element signature="e#1859#1860#0" expanded="false" />
-            <element signature="e#2625#2626#0" expanded="false" />
-            <element signature="e#2672#2673#0" expanded="false" />
-            <element signature="e#2734#2735#0" expanded="false" />
-            <element signature="e#2779#2780#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3439,36 +3590,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/TrackFriend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1116">
-          <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_permission_manager.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
+        <state relative-caret-position="1275">
           <caret line="85" column="44" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_menu.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_menu.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="870">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_settings_black_24dp.png">
@@ -3476,11 +3617,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_dashboard_white_24dp.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_dashboard_white_24dp.png" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -3491,88 +3628,88 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_dashboard_black_24dp.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_dashboard_black_24dp.png" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
+        <state relative-caret-position="315">
           <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/navigation_menu.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="e#178#197#0" expanded="true" />
-            <element signature="e#329#369#0" expanded="true" />
-            <element signature="e#487#506#0" expanded="true" />
-            <element signature="e#621#640#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/RegisterActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-737">
-          <caret line="103" column="47" selection-start-line="103" selection-start-column="47" selection-end-line="103" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/OnlineFriendListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/PermissionManagerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="4275">
           <caret line="330" column="87" selection-start-line="330" selection-start-column="87" selection-end-line="330" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/navigation_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/OnlineFriendListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/TrackFriend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="150" column="32" selection-start-line="150" selection-start-column="32" selection-end-line="150" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3313#9017#0" expanded="true" />
+            <element signature="e#3414#8991#0" expanded="true" />
+            <element signature="e#8014#8030#0" expanded="true" />
+            <element signature="e#8990#8991#0" expanded="true" />
+            <element signature="e#9016#9017#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/MainMenuActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="241" column="86" selection-start-line="241" selection-start-column="86" selection-end-line="241" selection-end-column="86" />
+        <state relative-caret-position="221">
+          <caret line="499" column="66" selection-start-line="499" selection-start-column="66" selection-end-line="499" selection-end-column="66" />
           <folding>
-            <element signature="e#12598#13132#0" expanded="true" />
-            <element signature="e#13131#13132#0" expanded="true" />
-            <element signature="e#13266#15900#0" expanded="true" />
-            <element signature="e#13929#14851#0" expanded="true" />
-            <element signature="e#14850#14851#0" expanded="true" />
-            <element signature="e#14902#15169#0" expanded="true" />
-            <element signature="e#15168#15169#0" expanded="true" />
-            <element signature="e#15899#15900#0" expanded="true" />
-            <element signature="e#16741#16792#0" expanded="true" />
-            <element signature="e#16917#16969#0" expanded="true" />
-            <element signature="e#18481#18677#0" expanded="true" />
-            <element signature="e#18676#18677#0" expanded="true" />
-            <element signature="e#19003#19229#0" expanded="true" />
-            <element signature="e#19228#19229#0" expanded="true" />
-            <element signature="class#21567:22016" expanded="false" />
+            <element signature="class#21634:22083" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/RegisterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="103" column="47" selection-start-line="103" selection-start-column="47" selection-end-line="103" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/root/trackr/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
