@@ -120,7 +120,7 @@ public class MainMenuActivity extends AppCompatActivity {
     }
 
     public void initialize() {
-//        mDrawerList= (ListView) findViewById(R.id.navList);
+
         mToolbar = (Toolbar) findViewById(R.id.nav_action);
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
         mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
@@ -238,9 +238,15 @@ public class MainMenuActivity extends AppCompatActivity {
                                 startActivity(intent);
                                 break;
                             case R.id.nav_about:
+                                AlertDialog.Builder logoutAlertBuilder = new AlertDialog.Builder(MainMenuActivity.this);
+                                logoutAlertBuilder.setMessage("Developed By:- \nDebargha Bhattacharjee \nAmay Mishra")
+                                        .setCancelable(true);
+                                AlertDialog logoutAlert = logoutAlertBuilder.create();
+                                logoutAlert.setTitle("Developers");
+                                logoutAlert.show();
                                 break;
                             case R.id.nav_logout:
-                                AlertDialog.Builder logoutAlertBuilder = new AlertDialog.Builder(MainMenuActivity.this);
+                                logoutAlertBuilder = new AlertDialog.Builder(MainMenuActivity.this);
                                 logoutAlertBuilder.setMessage("Do you want to logout and Exit?")
                                         .setCancelable(false)
                                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
@@ -258,7 +264,7 @@ public class MainMenuActivity extends AppCompatActivity {
                                                 dialog.cancel();
                                             }
                                         });
-                                AlertDialog logoutAlert = logoutAlertBuilder.create();
+                                logoutAlert = logoutAlertBuilder.create();
                                 logoutAlert.setTitle("Logout & Exit!!!");
                                 logoutAlert.show();
                                 break;
@@ -460,7 +466,7 @@ public class MainMenuActivity extends AppCompatActivity {
             Gson gson = new Gson();
             String json = sharedPreferencesProfileInformation.getString("currentUser", "");
             currentUser = gson.fromJson(json, User.class);
-            CustomLocation customLocation = new CustomLocation(String.valueOf(location.getLatitude()),currentUser.getId(),String.valueOf(location.getLongitude()));
+            CustomLocation customLocation = new CustomLocation(mLatitude,currentUser.getId(),mLongitude);
             String postUser = gson.toJson(customLocation, CustomLocation.class);
 
             JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(

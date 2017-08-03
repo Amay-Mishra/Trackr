@@ -22,7 +22,7 @@ public class AppConfig {
     public static String MAP_URL_GET= "http://trackr.trackr.hasura.me/get_position";
 
     //map connection url
-    public static String MAP_URL_SEND= "http://192.168.1.11/send_position_trackr.php";
+    public static String MAP_URL_SEND= "http://192.168.1.11/send_position";
 
     //server auth-token url
 
