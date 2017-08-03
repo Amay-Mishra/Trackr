@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Aug 03 14:25:16 IST 2017
+#Thu Aug 03 15:05:10 IST 2017
 210.set=ANDROID_RESOURCE
 282.file=/root/StudioProjects/Trackr/app/build/intermediates/res/resources-debug.ap_/res/mipmap-mdpi-v4/ic_info_black_24dp.png
 14.set=ANDROID_RESOURCE

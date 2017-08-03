@@ -239,7 +239,7 @@ public class MainMenuActivity extends AppCompatActivity {
                                 break;
                             case R.id.nav_about:
                                 AlertDialog.Builder logoutAlertBuilder = new AlertDialog.Builder(MainMenuActivity.this);
-                                logoutAlertBuilder.setMessage("Developed By:- \nDebargha Bhattacharjee \nAmay Mishra")
+                                logoutAlertBuilder.setMessage("Debargha Bhattacharjee \nAmay Mishra")
                                         .setCancelable(true);
                                 AlertDialog logoutAlert = logoutAlertBuilder.create();
                                 logoutAlert.setTitle("Developers");

@@ -327,9 +327,15 @@ public class PermissionManagerActivity extends AppCompatActivity implements Comp
                                 startActivity(intent);
                                 break;
                             case R.id.nav_about:
+                                AlertDialog.Builder logoutAlertBuilder = new AlertDialog.Builder(PermissionManagerActivity.this);
+                                logoutAlertBuilder.setMessage("Debargha Bhattacharjee \nAmay Mishra")
+                                        .setCancelable(true);
+                                AlertDialog logoutAlert = logoutAlertBuilder.create();
+                                logoutAlert.setTitle("Developers");
+                                logoutAlert.show();
                                 break;
                             case R.id.nav_logout:
-                                AlertDialog.Builder logoutAlertBuilder = new AlertDialog.Builder(PermissionManagerActivity.this);
+                               logoutAlertBuilder = new AlertDialog.Builder(PermissionManagerActivity.this);
                                 logoutAlertBuilder.setMessage("Do you want to logout and Exit?")
                                         .setCancelable(false)
                                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
@@ -347,7 +353,7 @@ public class PermissionManagerActivity extends AppCompatActivity implements Comp
                                                 dialog.cancel();
                                             }
                                         });
-                                AlertDialog logoutAlert = logoutAlertBuilder.create();
+                               logoutAlert = logoutAlertBuilder.create();
                                 logoutAlert.setTitle("Logout & Exit!!!");
                                 logoutAlert.show();
                                 break;
