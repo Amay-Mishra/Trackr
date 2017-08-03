@@ -20,12 +20,12 @@
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable/abc_btn_borderless_material.xml"
-    },
-    {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable/abc_btn_borderless_material.xml"
     },
     {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
@@ -36,12 +36,12 @@
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable/abc_btn_check_material.xml"
-    },
-    {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable/abc_btn_check_material.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
@@ -52,12 +52,12 @@
         "source": "/root/.android/build-cache/daf1de0093e65531e36a68172ddc3d610d8b75a0/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
-        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/root/.android/build-cache/3e3f41709192bd6da78cbcbc13e2baa2d372969a/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
-    },
-    {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/root/.android/build-cache/3e3f41709192bd6da78cbcbc13e2baa2d372969a/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",

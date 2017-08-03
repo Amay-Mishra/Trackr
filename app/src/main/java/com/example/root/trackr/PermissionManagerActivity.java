@@ -345,6 +345,7 @@ public class PermissionManagerActivity extends AppCompatActivity implements Comp
                                                 editor.clear();
                                                 editor.commit();
                                                 finish();
+                                                moveTaskToBack(true);
                                             }
                                         })
                                         .setNegativeButton("No", new DialogInterface.OnClickListener() {

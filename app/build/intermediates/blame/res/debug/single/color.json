@@ -20,12 +20,12 @@
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/root/.android/build-cache/3e3f41709192bd6da78cbcbc13e2baa2d372969a/output/res/color/common_google_signin_btn_text_dark.xml"
-    },
-    {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/root/.android/build-cache/3e3f41709192bd6da78cbcbc13e2baa2d372969a/output/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/design_error.xml",
@@ -68,12 +68,12 @@
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_search_url_text.xml"
-    },
-    {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/color/abc_search_url_text.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",

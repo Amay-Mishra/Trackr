@@ -256,6 +256,7 @@ public class MainMenuActivity extends AppCompatActivity {
                                                 editor.clear();
                                                 editor.commit();
                                                 finish();
+                                                moveTaskToBack(true);
                                             }
                                         })
                                         .setNegativeButton("No", new DialogInterface.OnClickListener() {
