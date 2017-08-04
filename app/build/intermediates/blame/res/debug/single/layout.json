@@ -40,24 +40,24 @@
         "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_layout_snackbar.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
-        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_item_separator.xml"
-    },
-    {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_item_separator.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
         "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_menu_item.xml"
     },
     {
-        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
         "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
@@ -84,8 +84,16 @@
         "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/notification_action_tombstone.xml"
+    },
+    {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
         "source": "/root/.android/build-cache/b690835a0ec3360df9639bf64c581f9c3978402c/output/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/notification_template_icon_group.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
@@ -366,6 +374,10 @@
     {
         "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/root/StudioProjects/Trackr/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/Trackr/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/root/.android/build-cache/ae1226f14c18db6d6bc710b8c9ae311e22459f99/output/res/layout/notification_action.xml"
     },
     {
         "merged": "/root/Android Studio Projects/Trackr/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
